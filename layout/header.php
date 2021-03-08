@@ -78,3 +78,77 @@
       }
       </style>
 </head>
+
+
+
+<!-- ====================================================== NAVBAR MENU ===================================================== -->
+<header>
+<nav class="navbar navbar-expand-lg p-3 fixed-top navbar-light bg-white border-bottom">
+ 
+<a class="navbar-brand ml-4 mr-5" href="#"><img src="asset/logo_mantap.png"  alt="Logo" width="80%"></a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+ 
+<div class="collapse navbar-collapse" style="margin-left:10%;" id="navbarSupportedContent">
+
+    <ul class="navbar-nav" style="font-size:12px; font-weight: bold;">
+    <li class="nav-item active" >
+    <a class="nav-link mr-3" href="index.php">BERANDA <span class="sr-only">(current)</span></a>
+    </li>
+         
+    <li class="nav-item dropdown">
+    <a class="nav-link mr-3 dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">TENTANG KAMI</a>
+    <div class="dropdown-menu" style="font-size:12px;" aria-labelledby="navbarDropdown">
+      <a class="dropdown-item"  style="border-bottom-color: yellow;" href="sekilasperusahaan.php">Sekilas Perusahaan</a>
+      <a class="dropdown-item" href="#">Struktur Organisasi</a>
+      <a class="dropdown-item" href="#">Budaya Kerja</a>
+      <a class="dropdown-item" href="#">Manajemen</a>
+      <a class="dropdown-item" href="#">Pemegang Saham</a>
+      <a class="dropdown-item" href="#">Good Corporate Goverment</a>
+      <a class="dropdown-item" href="#">Budaya Kerja</a>
+      <a class="dropdown-item" href="#">Whistleblowing System</a>
+      <a class="dropdown-item" href="#">Pengungkapan Kuantitatif Eksposur Risiko</a>
+    </div>
+    </li> 
+
+    <li class="nav-item"><a class="nav-link mr-3" href="#" tabindex="-1" aria-disabled="true">PINJAMAN</a></li>
+    <li class="nav-item"><a class="nav-link mr-3" href="#" tabindex="-1" aria-disabled="true">SIMPANAN</a></li>
+    <li class="nav-item"><a class="nav-link mr-3" href="#" tabindex="-1" aria-disabled="true">INFO MANTAP</a></li>
+    <li class="nav-item"><a class="nav-link mr-3" href="#" tabindex="-1" aria-disabled="true">JASA BANK</a></li>
+    <li class="nav-item"><a class="nav-link mr-3" href="#" tabindex="-1" aria-disabled="true">CABANG</a></li>
+    <li class="nav-item"><a class="nav-link mr-3" href="#" tabindex="-1" aria-disabled="true">SIMULASI</a></li>        
+    </ul>
+
+    <!-- Search Bottom Here -->
+    <div id="myOverlay" class="overlay">
+      <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+      <div class="overlay-content">
+        <form action="/hasil.php">
+          <input type="text" placeholder="Search.." name="search">
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+      </div>
+    </div>
+    
+    <a class="text-muted" href="#" onclick="openSearch()">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mx-3">
+    <circle cx="10.5" cy="10.5" r="7.5"></circle><line x1="21" y1="21" x2="15.8" y2="15.8"></line></svg>
+    </a> 
+    <!-- End Bottom Here -->
+
+    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+    <label class="btn btn-sm btn-warning">
+    <input type="radio" name="options" id="option1" autocomplete="off" checked>IDN
+    </label>
+    <label class="btn btn-sm btn-outline-warning text-dark">
+    <input type="radio" name="options" id="option2" autocomplete="off">ENG
+    </label>
+    </div>
+
+</div>
+ 
+</nav>
+</header>
+<!-- ====================================================== /NAVBAR  ===================================================== -->
