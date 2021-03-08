@@ -101,7 +101,7 @@
     <a class="nav-link mr-3 dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">TENTANG KAMI</a>
     <div class="dropdown-menu" style="font-size:12px;" aria-labelledby="navbarDropdown">
       <a class="dropdown-item"  style="border-bottom-color: yellow;" href="sekilasperusahaan.php">Sekilas Perusahaan</a>
-      <a class="dropdown-item" href="#">Struktur Organisasi</a>
+      <a class="dropdown-item" href="strukturorganisasi.php">Struktur Organisasi</a>
       <a class="dropdown-item" href="#">Budaya Kerja</a>
       <a class="dropdown-item" href="#">Manajemen</a>
       <a class="dropdown-item" href="#">Pemegang Saham</a>

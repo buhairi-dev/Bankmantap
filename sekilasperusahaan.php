@@ -8,7 +8,7 @@
 <ul class="breadcrumb">
 <div class="container">
   <li><a href="#">Home</a></li>
-  <li><a href="#">Tentang Kami</a></li>
+  <li>Tentang Kami</li>
   <li>Sekilas Perusahaan</li>
 </div>
 </ul>
