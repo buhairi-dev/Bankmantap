@@ -104,7 +104,7 @@
       <a class="dropdown-item" href="strukturorganisasi.php">Struktur Organisasi</a>
       <a class="dropdown-item" href="#">Budaya Kerja</a>
       <a class="dropdown-item" href="#">Manajemen</a>
-      <a class="dropdown-item" href="#">Pemegang Saham</a>
+      <a class="dropdown-item" href="pemegangsaham.php">Pemegang Saham</a>
       <a class="dropdown-item" href="#">Good Corporate Goverment</a>
       <a class="dropdown-item" href="#">Budaya Kerja</a>
       <a class="dropdown-item" href="#">Whistleblowing System</a>
