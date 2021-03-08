@@ -169,6 +169,44 @@ a:hover{
   	display: block;
 }
 
+#img-header{
+	margin-top:1%;
+}
+
+#img-header img{
+	width: 100%;height: 46%;
+}
+
+#img-header ul.breadcrumb {
+	padding: 10px;
+	list-style: none;
+	background-color: transparent;
+	box-shadow: 0px 0.9px 0px #0F2B5B33;
+  }
+#img-header ul.breadcrumb li {
+	display: inline;
+	font-size: 14px;
+	height: 18px;
+	color:#AFAAA3;
+  }
+#img-header ul.breadcrumb li+li:before {
+	padding: 8px;
+	color: black;
+	content: "/\00a0";
+  }
+#img-header ul.breadcrumb li a {
+	color: #0F2B5B;
+	text-decoration: none;
+  }
+#img-header ul.breadcrumb li a:hover {
+	color: #AFAAA3;
+	text-decoration: none;
+  }
+
+
+
+
+
 .sectionOne{
 	background-color: #007b5e;
 }

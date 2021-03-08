@@ -1,29 +1,46 @@
 <?php include 'layout/header.php';?>
+ 
+
+<section id="img-header" class="img-header">
+<img src="asset/slider2.png">
 
  
-<img src="asset/slider2.png">
+<ul class="breadcrumb">
+<div class="container">
+  <li><a href="#">Home</a></li>
+  <li><a href="#">Tentang Kami</a></li>
+  <li>Sekilas Perusahaan</li>
+</div>
+</ul>
  
+
+</section>
+
+
+
 
 <section class="section">
   <div class="container">
     <div class="row">
       <div class="col-sm-6">
-        <h4 style="color:#0F2B5B;">Visi Perusahaan</h4>
+        <h4 style="color:#0F2B5B;" class="mt-5">Visi Perusahaan</h4>
         <small>Menjadi mitra terbaik dan terpercaya dalam memberdayakan dan mensejahterakan</small>
-        <div class="space"></div>
-
-        <h4>Misi Perusahaan</h4>
+      
+        <h4 style="color:#0F2B5B;" class="mt-5">Misi Perusahaan</h4>
         <ul>
-          <li>Menciptakan pertumbuhan bisnis dan kesejahteraan melalui produk dan layanan keuangan terbaik</li>
-          <li>Fokus pada kebutuhan UMKM dan Pensiunan dengan menyelaraskan kepentingan ekonomi, sosil dan lingkungan</li>
+          <li><small>Menciptakan pertumbuhan bisnis dan kesejahteraan melalui produk dan layanan keuangan terbaik</small></li>
+          <li><small>Fokus pada kebutuhan UMKM dan Pensiunan dengan menyelaraskan kepentingan ekonomi, sosil dan lingkungan</small></li>
         </ul>
       </div>
-      <div class="col-sm-4">
-        <img src="asset/img/2_1.JPG"  alt="Logo" width="400px">
+      
+      <div class="col-sm-5">
+        <img src="asset/pic-sekilas.png"  alt="Logo" width="550px" style="left: 686px; height: 360px; margin-bottom:8%;">
       </div>
     </div>
+
+
     <div class="row">
-      <div class="col-sm-12">
+      <div class="col-sm-12 mt-5">
         <h4 style="color:#0F2B5B;">Riwayat Singkat Perusahaan</h4>
         <p><small>
         PT Bank Mandiri Taspen (selanjutnya disebut "Bank) didirikan di Denpasar pada tanggal 3 November 1992 berdasarkan Akta Pendirian No.4, yang dibuat di hadapan Ida Bagua Alit Sudiatmika, S.H, Notrasi
@@ -88,7 +105,7 @@
 
       </div>
     </div>
-    <div><p align="center"><button class="btn btn-lg">Download Profil Lengkap Tentang Bank Mantap</button></p></div>
+    <div class="mx-auto mt-5" style="width: 200px;"><p><button class="btn btn-lg btn-wr">Download Profil Lengkap Tentang Bank Mantap</button></p></div>
   </div>
    
     
