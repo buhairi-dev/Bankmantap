@@ -7,14 +7,14 @@
 <div class="container">
   <li><a href="#">Home</a></li>
   <li>Tentang Kami</li>
-  <li>Management</li>
+  <li>Struktur Organisasi</li>
 </div>
 </ul>
 </section>
 
 <div class="container">
-<h4 style="color:#0F2B5B;">Penghargaan</h4>
-<p  class="mb-5"><small>Daftar penghargaan yang diperoleh oleh Bank Mantap</small></p>
+<h4 style="color:#0F2B5B;">Struktur Organisasi</h4>
+<p  class="mb-5"><small>Berikut adalah struktur organisasi per tanggal 6 Mei 2020</small></p>
 </div>
 
 <div class="container mb-5 text-center">
