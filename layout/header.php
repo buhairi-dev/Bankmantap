@@ -10,81 +10,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" media="all">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/main.css" type="text/css" media="all"/>
-
-    <style>
-      * {
-        box-sizing: border-box;
-      }
-      
-      .overlay {
-        height: 25%;
-        width: 100%;
-        display: none;
-        position: fixed;
-        z-index: 1;
-        top: 0;
-        left: 0;
-        background-color: rgb(255, 255, 255);
-        background-color: rgba(255, 255, 255, 0.9);
-      }
-      
-      .overlay-content {
-        position: relative;
-        top: 40%;
-        width: 80%;
-        text-align: center;
-        margin-top: 30px;
-        margin: auto;
-      }
-      
-      .overlay .closebtn {
-        position: absolute;
-        top: 20px;
-        right: 45px;
-        font-size: 50px;
-        cursor: pointer;
-        color: rgb(15, 8, 67);
-      }
-      
-      .overlay .closebtn:hover {
-        color: #ccc;
-      }
-      
-      .overlay input[type=text] {
-        padding: 15px;
-        font-size: 17px;
-        border: none;
-        float: left;
-        width: 80%;
-        background: white;
-      }
-      
-      .overlay input[type=text]:hover {
-        background: #f1f1f1;
-      }
-      
-      .overlay button {
-        float: left;
-        width: 10%;
-        padding: 5px;
-        background: rgb(8, 7, 73);
-        border: none;
-        cursor: pointer;
-        color:white;
-      }
-      
-      .overlay button:hover {
-        background: #bbb;
-      }
-      </style>
 </head>
-
-
 
 <!-- ====================================================== NAVBAR MENU ===================================================== -->
 <header>
 <nav class="navbar navbar-expand-lg p-3 fixed-top navbar-light bg-white border-bottom">
- 
 <a class="navbar-brand ml-4 mr-5" href="#"><img src="asset/logo_mantap.png"  alt="Logo" width="80%"></a>
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 <span class="navbar-toggler-icon"></span>
@@ -107,16 +37,55 @@
       <a class="dropdown-item" href="manajemen.php">Manajemen</a>
       <a class="dropdown-item" href="pemegangsaham.php">Pemegang Saham</a>
       <a class="dropdown-item" href="penghargaan.php">Penghargaan</a>
-      <a class="dropdown-item" href="#">Good Corporate Goverment</a>
-      <a class="dropdown-item" href="#">Whistleblowing System</a>
-      <a class="dropdown-item" href="#">Pengungkapan Kuantitatif Eksposur Risiko</a>
+      <a class="dropdown-item" href="">Good Corporate Goverment</a>
+      <a class="dropdown-item" href="">Whistleblowing System</a>
+      <a class="dropdown-item" href="">Pengungkapan Kuantitatif Eksposur Risiko</a>
     </div>
     </li> 
 
-    <li class="nav-item"><a class="nav-link mr-3" href="#" tabindex="-1" aria-disabled="true">PINJAMAN</a></li>
-    <li class="nav-item"><a class="nav-link mr-3" href="#" tabindex="-1" aria-disabled="true">SIMPANAN</a></li>
-    <li class="nav-item"><a class="nav-link mr-3" href="#" tabindex="-1" aria-disabled="true">INFO MANTAP</a></li>
-    <li class="nav-item"><a class="nav-link mr-3" href="#" tabindex="-1" aria-disabled="true">JASA BANK</a></li>
+    <li class="nav-item dropdown">
+    <a class="nav-link mr-3 dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PINJAMAN</a>
+    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+      <a class="dropdown-item" href="">Kredit Mantap Pensiun</a>
+      <a class="dropdown-item" href="">Pinjaman Ritel</a>
+      <a class="dropdown-item" href="">Pinjaman Mikro</a>
+    </div>
+    </li> 
+ 
+    <li class="nav-item dropdown">
+    <a class="nav-link mr-3 dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SIMPANAN</a>
+    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+      <a class="dropdown-item" href="">Simpanan Tabunganku</a>
+      <a class="dropdown-item" href="">Tabungan siMantap Berjangka</a>
+      <a class="dropdown-item" href="">Tabungan Simantap</a>
+      <a class="dropdown-item" href="">Tabungan Simantap Pensiun</a>
+      <a class="dropdown-item" href="">Deposito Mantap</a>
+      <a class="dropdown-item" href="">Giro</a>
+    </div>
+    </li> 
+
+    <li class="nav-item dropdown">
+    <a class="nav-link mr-3 dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">INFO MANTAP</a>
+    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+      <a class="dropdown-item" href="">Berita Mantap</a>
+      <a class="dropdown-item" href="">Promosi Mantap</a>
+      <a class="dropdown-item" href="">Program Mantap</a>
+      <a class="dropdown-item" href="">Laporan Keuangan</a>
+    </div>
+    </li>
+    
+     
+    <li class="nav-item dropdown">
+    <a class="nav-link mr-3 dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">JASA BANK</a>
+    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+      <a class="dropdown-item" href="">Tarif Layanan</a>
+      <a class="dropdown-item" href="">Bank Garansi</a>
+      <a class="dropdown-item" href="">Referensi Bank</a>
+      <a class="dropdown-item" href="">Transfer</a>
+      <a class="dropdown-item" href="">Inkaso</a>
+    </div>
+    </li>
+
     <li class="nav-item"><a class="nav-link mr-3" href="#" tabindex="-1" aria-disabled="true">CABANG</a></li>
     <li class="nav-item"><a class="nav-link mr-3" href="#" tabindex="-1" aria-disabled="true">SIMULASI</a></li>        
     </ul>

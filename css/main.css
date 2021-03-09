@@ -3,6 +3,9 @@
  
    Index
    - Color Palette
+   - Body
+   - Navbar
+   - Overlay Seach Button
    - Typography
    - Buttons
    - Forms
@@ -24,9 +27,105 @@ a:hover{
 }
 
 /* Navbar CSS */
+.dropdown{
+	position: relative;
+	display: inline-block;
+}
 
+.dropdown-menu{
+	  display: none;
+	  position: absolute;
+	  background-color: #FFF;
+	  z-index: 1;
+	  font-size:12px;
+}
+
+.dropdown-menu a{
+	margin-top:-9px;
+	margin-bottom:4px;
+	padding: 8px 25px;
+	box-shadow: 0px 0.9px 0px #0F2B5B33;
+}
+
+.dropdown:hover .dropdown-menu{
+	display: block;
+}
+
+.dropdown-menu a:hover{
+	margin-top:-9px;
+	margin-bottom:4px;
+	background-color: #0F2B5B;
+	color:#FCD116;
+	padding: 8px 25px;
+}
  
- 
+/* Overlay Seacrh Button */
+* {
+	box-sizing: border-box;
+  }
+  
+  .overlay {
+	height: 25%;
+	width: 100%;
+	display: none;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: rgb(255, 255, 255);
+	background-color: rgba(255, 255, 255, 0.9);
+  }
+  
+  .overlay-content {
+	position: relative;
+	top: 40%;
+	width: 80%;
+	text-align: center;
+	margin-top: 30px;
+	margin: auto;
+  }
+  
+  .overlay .closebtn {
+	position: absolute;
+	top: 20px;
+	right: 45px;
+	font-size: 50px;
+	cursor: pointer;
+	color: rgb(15, 8, 67);
+  }
+  
+  .overlay .closebtn:hover {
+	color: #ccc;
+  }
+  
+  .overlay input[type=text] {
+	padding: 15px;
+	font-size: 17px;
+	border: none;
+	float: left;
+	width: 80%;
+	background: white;
+  }
+  
+  .overlay input[type=text]:hover {
+	background: #f1f1f1;
+  }
+  
+  .overlay button {
+	float: left;
+	width: 10%;
+	padding: 5px;
+	background: rgb(8, 7, 73);
+	border: none;
+	cursor: pointer;
+	color:white;
+  }
+  
+  .overlay button:hover {
+	background: #bbb;
+  }
+
+
 #simulasi{
 	margin-top:-5%;
 	height: 750px;
@@ -149,38 +248,7 @@ a:hover{
 	color:#FCD116;
 }
 
-.dropdown {
-	position: relative;
-	display: inline-block;
-}
 
-.dropdown-menu{
-	  display: none;
-	  position: absolute;
-	  background-color: #FFF;
-	  z-index: 1;
-	  font-size:12px;
-}
-
-.dropdown-menu a{
-	margin-top:-9px;
-	margin-bottom:4px;
-	padding: 8px 25px;
-	box-shadow: 0px 0.9px 0px #0F2B5B33;
-}
-
-.dropdown:hover .dropdown-menu {
-	display: block;
-  }
-
-.dropdown-menu a:hover{
-	margin-top:-9px;
-	margin-bottom:4px;
-	background-color: #0F2B5B;
-	color:#FCD116;
-	padding: 8px 25px;
- 
-}
 
 #img-header{
 	margin-top:1%;
