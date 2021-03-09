@@ -45,6 +45,5 @@
       </div>
     </div>
 </section>
-
 <br/><br/><br/><br/>
 <?php include 'layout/footer.php';?>
