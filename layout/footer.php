@@ -20,7 +20,6 @@
             <li><a href="pemegangsaham.php">Pemegang Saham</a></li>
             <li><a href="#">Penghargaan</a></li>
             <li><a href="#">Good Corporate Governance</a></li>
-            <li><a href="#">Whistleblowing System</a></li>
             <li><a href="#">Pengungkapan Kuantitatif Eksposur Risiko</a></li>
 
           </ul>
@@ -38,11 +37,12 @@
        <div class="col-xs-12 col-sm-2 col-sm-2">
           <h5>SIMPANAN</h5>
           <ul class="list-unstyled quick-links">
-            <li><a href="#">Tabunganku Deposito </a></li>
+            <li><a href="#">Tabunganku</a></li>
             <li><a href="#">Tabungan Simantap Berjangka </a></li>
             <li><a href="#">Tabungan Simantap Gold </a></li>
             <li><a href="#">Tabungan Simantap Pensiun </a></li>
-            <li><a href="#">Mantap Giro</a></li>
+            <li><a href="#">Deposito Mantap</a></li>
+            <li><a href="#">Giro</a></li>
           </ul>
         </div>
  
@@ -61,6 +61,7 @@
           <ul class="list-unstyled quick-links">
             <li><a href="#">Tarif Layanan</a></li>
             <li><a href="#">Bank Garansi</a></li>
+            <li><a href="#">Referensi Bank</a></li>
             <li><a href="#">Transfer</a></li>
             <li><a href="#">Inkaso</a></li>
           </ul>
@@ -168,6 +169,35 @@
 
  
 
+<!-- ================================================= FLOATING MENU ========================================================== -->
+<div class="float-menu">
+    <ul>
+      <li>
+        <a data-toggle="modal" data-target="#ModalEmail" data-whatever="email" href="#">
+          <span class="text">email</span>
+          <img style="height: 30px;" src="asset/icon/mail.png">
+        </a>    
+      </li>
+      <li>
+        <a data-toggle="modal" data-target="#ModalPhone" data-whatever="phone" href="#">
+          <span class="text">phone</span>
+          <img style="height: 30px;" src="asset/icon/phone.png">
+        </a>    
+      </li>
+      <li>
+        <a data-toggle="modal" data-target="#ModalShare" data-whatever="share" href="#">
+          <span class="text">location</span>
+          <img style="width: 30px;" src="asset/icon/maps.png">
+        </a>    
+      </li>
+      <li>
+        <a data-toggle="modal" data-target="#ModalShare" data-whatever="share" href="#">
+          <span class="text">share</span>
+          <img style="height: 30px;" src="asset/icon/share.png">
+      </li>
+    </ul>
+  </div>
+  <!-- ================================================= END FLOATING MENU ======================================================-->
 
 
 <!--  ================================================ MILEA ================================================================== -->

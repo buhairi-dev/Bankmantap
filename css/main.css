@@ -345,7 +345,7 @@ section .section-title {
 }
 
 #footer a{
-    font-size:14px;
+    font-size:12px;
     color: #FCD116;
     text-decoration: none !important;
     background-color: transparent;
@@ -467,3 +467,220 @@ section .section-title {
 .chat-float img {
   width: 125px;
 }
+
+
+/* FLOAT MENU CSS */
+ 
+.float-menu {
+	display: block;
+	position: fixed;
+	top: 350px;
+	z-index: 9;
+	right: 0
+}
+.float-menu ul {
+	-webkit-box-shadow: 0 5px 15px 0 #808080;
+   -ms-box-shadow: 0 5px 15px 0 #808080;
+   -o-box-shadow: 0 5px 15px 0 #808080;
+   box-shadow: 0 5px 15px 0 #808080;
+   border-radius: 12px 0 0 12px;
+   background-color: #ff9500;
+   margin-bottom: 0;
+
+   list-style: none;
+   padding: 11px 11px;
+   width: 50px;
+   overflow: visible;
+}
+.float-menu ul li a {
+	display: table;
+	height: auto;
+	color: white;
+	padding: 10px 0
+}
+.float-menu ul li a span {
+	display: table-cell;
+	vertical-align: middle
+}
+.float-menu ul li a .text {
+	display: none
+}
+.float-menu ul li a .menu-icon {
+	font-size: 45px;
+
+	margin-left: 15px
+}
+.float-menu ul li:hover {
+	overflow: visible
+}
+.float-menu ul li:hover a {
+		width: 117px;
+   /* height: 10px; */
+   -wenkit-transition: all .3s ease;
+   -webkit-transition: all .3s ease;
+   transition: all .3s ease;
+   background-color: #1a3562;
+   margin-left: -80px;
+   -webkit-box-shadow: 5px 0 17px #808080;
+   -ms-box-shadow: 5px 0 17px #808080;
+   -o-box-shadow: 5px 0 17px #808080;
+   box-shadow: 5px 0 17px #808080;
+   border-radius: 15px 0 0 15px;
+   padding-left: 0;
+   padding-right: 5px;
+   /* padding-top: 0; */
+   padding-bottom: 3;
+   padding: 10 10 10 10;
+}
+.float-menu ul li:hover a span {
+	width: 50%
+}
+.float-menu ul li:hover a img {
+	margin-left: 8px;
+   float: right;
+}
+.float-menu ul li:hover a .text {
+	display: table-cell;
+	padding-left: 15px
+}
+.float-menu ul li:hover a .menu-icon {
+	font-size: 56px;
+	margin-left: 0;
+	text-align: center
+}
+@media only screen and (max-width: 992px) {
+	.box {
+		width: 100%
+	}
+	.table {
+		display: block
+	}
+	.table .cell {
+		display: block
+	}
+	.mandiri-navbar {
+		padding-top: 100px
+	}
+	.mandiri-big-logo {
+		 width: 160px;
+		top: 15px
+	}
+	.container .navbar-header {
+		display: table;
+		margin-left: 0;
+		margin-right: 0;
+		width: 100%
+	}
+	.container .navbar-header .navbar-toggle,
+	.container .navbar-header .search-form {
+		display: table-cell !important;
+		vertical-align: middle
+	}
+	.container .navbar-header .navbar-toggle {
+		float: none;
+		margin-left: 0
+	}
+	.container .navbar-header .search-form {
+		padding: 0;
+		border: none
+	}
+	.with-table-content {
+		margin-top: 10px;
+		width: 100%
+	}
+	.with-table-content .table {
+		margin-bottom: 0;
+		border-radius: 15px 15px 0 0
+	}
+	.with-table-content .table .cell {
+		height: auto
+	}
+	.with-table-content .table .cell img {
+		width: 50px
+	}
+	.with-table-content .table .cell img.thumb {
+		width: 100% !important;
+		height: 200px
+	}
+	.with-table-content .table .cell h3 {
+		font-size: 18px
+	}
+	.thumbnail {
+		width: 100%;
+		margin: 0 0 15px 0
+	}
+	.thumbnail:nth-of-type(3n-3) {
+		margin-left: 0;
+		margin-right: 0
+	}
+	section.slider {
+		background-color: white;
+		min-height: auto
+	}
+	section.slider .owl-carousel .owl-item img {
+		display: block;
+		width: 100%;
+		height: 200px;
+		margin: 0 auto;
+		border-radius: 15px;
+		-webkit-object-fit: cover;
+		-moz-object-fit: cover;
+		-o-object-fit: cover;
+		-ms-object-fit: cover;
+		object-fit: cover
+	}
+	.owl-theme .owl-controls {
+		position: relative;
+		top: 0;
+		right: auto;
+		margin-top: 0
+	}
+	.owl-controls .owl-pagination .owl-page span {
+		width: 10px;
+		height: 10px;
+		opacity: 1
+	}
+	.owl-controls .owl-pagination .owl-page.active span {
+		border: solid 3px #ffd10a
+	}
+	.float-menu {
+		top: auto;
+		bottom: 0;
+		width: 100%
+	}
+	.float-menu ul {
+		width: 100%;
+		display: block;
+		padding: 0;
+		border-radius: 20px 20px 0 0
+	}
+	.float-menu ul li {
+		display: inline-block;
+		width: calc(24%)
+	}
+	.float-menu ul li a {
+		margin: 0 auto
+	}
+	.float-menu ul li:hover {
+		height: 75px
+	}
+	.float-menu ul li:hover a {
+		border-radius: 15px 15px 0 0;
+		width: 100%;
+		margin-left: 0;
+		height: 100px;
+		top: -14px;
+		position: relative
+	}
+	.float-menu ul li:hover a img {
+
+			width: 55% !important;
+   height: auto !important;
+   float: none;
+   margin-left: -4px;
+		
+	}
+	.float-menu ul li:hover a .text {
+		display: none
+	}
+	
