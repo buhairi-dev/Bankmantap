@@ -89,7 +89,8 @@
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 <span class="navbar-toggler-icon"></span>
 </button>
- 
+
+
 <div class="collapse navbar-collapse" style="margin-left:10%;" id="navbarSupportedContent">
 
     <ul class="navbar-nav" style="font-size:12px; font-weight: bold;">
@@ -99,7 +100,7 @@
          
     <li class="nav-item dropdown">
     <a class="nav-link mr-3 dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">TENTANG KAMI</a>
-    <ul class="dropdown-menu" style="font-size:12px;" aria-labelledby="navbarDropdown">
+    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
       <a class="dropdown-item" href="sekilasperusahaan.php">Sekilas Perusahaan</a>
       <a class="dropdown-item" href="strukturorganisasi.php">Struktur Organisasi</a>
       <a class="dropdown-item" href="budayakerja.php">Budaya Kerja</a>
@@ -107,10 +108,9 @@
       <a class="dropdown-item" href="pemegangsaham.php">Pemegang Saham</a>
       <a class="dropdown-item" href="penghargaan.php">Penghargaan</a>
       <a class="dropdown-item" href="#">Good Corporate Goverment</a>
-     
       <a class="dropdown-item" href="#">Whistleblowing System</a>
       <a class="dropdown-item" href="#">Pengungkapan Kuantitatif Eksposur Risiko</a>
-    </ul>
+    </div>
     </li> 
 
     <li class="nav-item"><a class="nav-link mr-3" href="#" tabindex="-1" aria-disabled="true">PINJAMAN</a></li>
