@@ -39,7 +39,7 @@
       <a class="dropdown-item" href="pemegangsaham.php">Pemegang Saham</a>
       <a class="dropdown-item" href="penghargaan.php">Penghargaan</a>
       <a class="dropdown-item" href="goodcorpgovernance.php">Good Corporate Governance</a>
-      <a class="dropdown-item" href="">Whistleblowing System</a>
+      <a class="dropdown-item" href="whistleblowingsystem.php">Whistleblowing System</a>
       <a class="dropdown-item" href="">Pengungkapan Kuantitatif Eksposur Risiko</a>
     </div>
     </li> 
