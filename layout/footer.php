@@ -13,11 +13,11 @@
         <div class="col-xs-12 col-sm-2 col-sm-2">
           <h5>TENTANG KAMI</h5>
           <ul class="list-unstyled quick-links">
-            <li><a href="#">Sekilas Perusahaan</a></li>
-            <li><a href="#">Struktur Organisasi</a></li>
-            <li><a href="#">Budaya Kerja</a></li>
-            <li><a href="#">Management</a></li>
-            <li><a href="#">Pemegang Saham</a></li>
+            <li><a href="sekilasperusahaan.php">Sekilas Perusahaan</a></li>
+            <li><a href="strukturorganisasi.php">Struktur Organisasi</a></li>
+            <li><a href="budayakerja.php">Budaya Kerja</a></li>
+            <li><a href="manajemen.php">Manajemen</a></li>
+            <li><a href="pemegangsaham.php">Pemegang Saham</a></li>
             <li><a href="#">Penghargaan</a></li>
             <li><a href="#">Good Corporate Governance</a></li>
             <li><a href="#">Whistleblowing System</a></li>

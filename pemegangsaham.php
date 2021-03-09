@@ -27,29 +27,21 @@ table {
 th {
   text-align: center;
   height: 60px;
-
   color: #121212;
 
 }
 td {
  text-align: center;
   height: 40px;
- 
   color: #121212;;
 }
 tr:nth-child(even){
     background-color: #FCD1161A;
-    
-}
-
-tr:footer{
-    color:red;
 }
 
 th {
   background-color: #FCD116;
   color: #0F2B5B;
-  
 }
 
 tr .footer{
@@ -87,13 +79,12 @@ tr .footer{
     <td>7.617.432</td>
     <td>0.507</td>
     <td>Tidak</td>
+  
   </tr>
 
   <tr>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
+    <td colspan='4' class="bg-white">&nbsp;</td>
+ 
   </tr>
 
 </tbody>

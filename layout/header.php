@@ -98,15 +98,16 @@
     </li>
          
     <li class="nav-item dropdown">
-    <a class="nav-link mr-3 dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">TENTANG KAMI</a>
+    <a class="nav-link mr-3 dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">TENTANG KAMI</a>
     <div class="dropdown-menu" style="font-size:12px;" aria-labelledby="navbarDropdown">
       <a class="dropdown-item"  style="border-bottom-color: yellow;" href="sekilasperusahaan.php">Sekilas Perusahaan</a>
       <a class="dropdown-item" href="strukturorganisasi.php">Struktur Organisasi</a>
-      <a class="dropdown-item" href="#">Budaya Kerja</a>
-      <a class="dropdown-item" href="#">Manajemen</a>
+      <a class="dropdown-item" href="budayakerja.php">Budaya Kerja</a>
+      <a class="dropdown-item" href="manajemen.php">Manajemen</a>
       <a class="dropdown-item" href="pemegangsaham.php">Pemegang Saham</a>
+      <a class="dropdown-item" href="penghargaan.php">Penghargaan</a>
       <a class="dropdown-item" href="#">Good Corporate Goverment</a>
-      <a class="dropdown-item" href="#">Budaya Kerja</a>
+     
       <a class="dropdown-item" href="#">Whistleblowing System</a>
       <a class="dropdown-item" href="#">Pengungkapan Kuantitatif Eksposur Risiko</a>
     </div>
@@ -126,7 +127,7 @@
       <div class="overlay-content">
         <form action="/hasil.php">
           <input type="text" placeholder="Search.." name="search">
-          <button type="submit"><i class="fa fa-search"></i></button>
+          <button class="btn" type="submit"><i class="fa fa-search"></i></button>
         </form>
       </div>
     </div>
