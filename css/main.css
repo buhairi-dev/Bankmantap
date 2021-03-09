@@ -224,11 +224,11 @@ a:hover{
  }
 
 .btn-more{
- 	background-color: #0F2B5B;
- 	color:#FFF;
+ 	background-color: #FCD116;
+	color:#000;
  	font-size: 13px;
  	border-radius: 25px;
-	width: 250px;
+	width: 200px;
 	padding: 12px;
 }
 
@@ -239,7 +239,7 @@ a:hover{
 	font-size: 13px;
 	font-weight: 900;
 	border-radius: 25px;
-	width: 250px;
+	width: 200px;
 	box-shadow: 0 8px 10px 0 rgba(0,0,0,0.24), 0 14px 40px 0 rgba(0,0,0,0.15);
 }
 

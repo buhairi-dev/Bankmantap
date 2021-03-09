@@ -1,6 +1,7 @@
  
 <!-- ====================================================== CAROUSEL  ======================================================= -->
 <section id="hero" class="carousel slide" data-ride="carousel">
+
   <ol class="carousel-indicators" style="margin-left:-48rem; margin-bottom:12rem;">
     <li data-target="#hero" data-slide-to="0" class="active" style="height: 10px; width: 50px; padding-box; border-radius: 6px;"></li>
     <li data-target="#hero" data-slide-to="1" style="width: 12px; height: 10px;  padding-box; border-radius: 6px;"></li>
@@ -8,26 +9,26 @@
   </ol>
     <div class="carousel-inner">
      
-    <div class="carousel-item active w-100" style="background-color: #FDB501; height: 38rem;">
+    <div class="carousel-item active w-100" style="background-color: #0F2B5B; height: 38rem;">
+    <img class="d-block" style="margin-left:50%" src="asset/herobg.png" width="39%" alt="First slide">
       
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffd700" fill-opacity="1" d="M0,256L48,266.7C96,277,192,299,288,293.3C384,288,480,256,576,218.7C672,181,768,139,864,133.3C960,128,1056,160,1152,170.7C1248,181,1344,171,1392,165.3L1440,160L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
     <!--<img class="d-block w-100" src="asset/1.png" width="5%" alt="First slide"> -->
 
     <div class="container">
        <div class="row"> 
 
         <div class="carousel-caption text-left">
-        <h2 style="font-weight: bold; color:#0F2B5B;">Ambil uang pensiun
+        <h2 style="font-weight: bold; color:#FCD116;">Ambil uang pensiun
         <br/>dari tarik tunai, tidak harus datang
         <br/>ke kantor cabang</h2>
-        <p class="text-dark">Dengan kartu ATM Bank Mantap, nasabah pensiunan ASN<br/>dan TNI/POLRI dapat mengambil uang pensiun dan tarik<br/>
+        <p class="text-light">Dengan kartu ATM Bank Mantap, nasabah pensiunan ASN<br/>dan TNI/POLRI dapat mengambil uang pensiun dan tarik<br/>
         tunai tidak harus datang ke kantor cabang</p>
        
         <p><a class="btn btn-lg btn-more" href="#" role="button">Selengkapnya</a></p>
         <p>&nbsp;</p><p>&nbsp;</p>
       <div class="row">
       <div class="text-left col-md-4">
-      <p class="text-dark" style="font-size: 11px;">PT Bank Mandiri Taspen adalah pelaku jasa keuangan terdaftar dan diawasi oleh<br/>
+      <p class="text-light" style="font-size: 11px;">PT Bank Mandiri Taspen adalah pelaku jasa keuangan terdaftar dan diawasi oleh<br/>
       Otoritas Jasa Keuangan serta merupakan bank peseta penjamin LPS</p>
       </div>
       <div class="text-right">
@@ -44,13 +45,13 @@
           <div class="hero"> 
             <style>
               .hero { 
-                top:45px; 
-                z-index:999;
+                top:40px; 
+                z-index:9;
                 position:fixed;
-                margin-left: 35%;
-              }
+                margin-left: 30%;
+               }
               </style>
-          <img src="asset/1.png" >
+          <img src="asset/1.png" width="80%">
          </div>
           </div>
 
