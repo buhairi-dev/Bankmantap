@@ -202,7 +202,8 @@
 
 <!--  ================================================ MILEA ================================================================== -->
 <div class="chat-float">
-  <a id="milea" href="https://milea.bankmantap.co.id/" target="_blank">
+<a id="milea" href="https://milea.bankmantap.co.id/" target="_blank">
+   
     <div>
       <img src="asset/milea.png" />
     </div>

@@ -18,8 +18,15 @@
 \*-------------------------------------------*/
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap');
+ 
+
 body{
 	font-family: 'Roboto', sans-serif;
+}
+
+
+h4,h5{
+	color: #0F2B5B;
 }
 
 a:hover{
@@ -141,7 +148,7 @@ a:hover{
 	font-size: 14px;
 	font-family: 'Roboto', sans-serif;
 	letter-spacing: 1px;
-	text-align: left;
+	text-align: center;
 	color: #FFFFFF;
 	top: 15px;
 	width: 538px;
@@ -153,15 +160,15 @@ a:hover{
 
 .card-two{
 	background: var(--orange-f77f00) 0% 0% no-repeat padding-box;
-	background: #F77F00 0% 0% no-repeat padding-box;
+	background: #FCD116 0% 0% no-repeat padding-box;
 	box-shadow: 0px 10px 30px #00000014;
 	border-radius: 24px;
 	opacity: 1;
 	font-size: 14px;
 	font-family: 'Roboto', sans-serif;
 	letter-spacing: 1px;
-	text-align: left;
-	color: #FFFF;
+	text-align: center;
+	color: #0F2B5B;
 	top: 15px;
 	width: 538px;
 	height: 320px;
@@ -170,13 +177,12 @@ a:hover{
 	padding-bottom:0px;
 }
 
-.btn-simulasi{
-	background: #FFFF 0% 0% no-repeat padding-box;
+.btn-simulasi-light{
+	background: #fff 0% 0% no-repeat padding-box;
 	color: #000;
 	border-radius: 30px;
 	border: none;
 	position: center;
-	left: 500px;
 	width: 250px;
 	height: 45px;
 	padding: 12px;
@@ -186,13 +192,37 @@ a:hover{
 	font-weight: 900;
 	text-transform: uppercase;
 	transition-duration: 0.4s;
-	margin-left: 15%;
+	margin-top: 8%;
+ 
+}
+
+.btn-simulasi-dark{
+	background: #0F2B5B 0% 0% no-repeat padding-box;
+	color: #FCD116;
+	border-radius: 30px;
+	border: none;
+	position: center;
+	width: 250px;
+	height: 45px;
+	padding: 12px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: 900;
+	text-transform: uppercase;
+	transition-duration: 0.4s;
 	margin-top: 10%;
  
 }
 
-.btn-simulasi:hover {
-	background-color:#FCD116;
+.btn-simulasi-light:hover {
+	background-color:#0F2B5B;
+	color:#FFF;
+	box-shadow: 0 8px 10px 0 rgba(0,0,0,0.24), 0 14px 40px 0 rgba(0,0,0,0.15);
+}
+
+.btn-simulasi-dark:hover {
+	background-color:#FFF;
 	box-shadow: 0 8px 10px 0 rgba(0,0,0,0.24), 0 14px 40px 0 rgba(0,0,0,0.15);
 }
 
@@ -474,7 +504,7 @@ section .section-title {
 .float-menu {
 	display: block;
 	position: fixed;
-	top: 350px;
+	top: 300px;
 	z-index: 9;
 	right: 0
 }
@@ -484,9 +514,8 @@ section .section-title {
    -o-box-shadow: 0 5px 15px 0 #808080;
    box-shadow: 0 5px 15px 0 #808080;
    border-radius: 12px 0 0 12px;
-   background-color: #ff9500;
+   background-color: #FCD116;
    margin-bottom: 0;
-
    list-style: none;
    padding: 11px 11px;
    width: 50px;
@@ -641,7 +670,7 @@ section .section-title {
 		opacity: 1
 	}
 	.owl-controls .owl-pagination .owl-page.active span {
-		border: solid 3px #ffd10a
+		border: solid 3px #ffd10a;
 	}
 	.float-menu {
 		top: auto;

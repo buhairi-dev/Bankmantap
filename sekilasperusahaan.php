@@ -23,10 +23,10 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-6">
-        <h4 style="color:#0F2B5B;" class="mt-5">Visi Perusahaan</h4>
+        <h4 class="mt-5">Visi Perusahaan</h4>
         <small>Menjadi mitra terbaik dan terpercaya dalam memberdayakan dan mensejahterakan</small>
       
-        <h4 style="color:#0F2B5B;" class="mt-5">Misi Perusahaan</h4>
+        <h4 class="mt-5">Misi Perusahaan</h4>
         <ul>
           <li><small>Menciptakan pertumbuhan bisnis dan kesejahteraan melalui produk dan layanan keuangan terbaik</small></li>
           <li><small>Fokus pada kebutuhan UMKM dan Pensiunan dengan menyelaraskan kepentingan ekonomi, sosil dan lingkungan</small></li>
@@ -41,7 +41,7 @@
 
     <div class="row">
       <div class="col-sm-12 mt-5">
-        <h4 style="color:#0F2B5B;">Riwayat Singkat Perusahaan</h4>
+        <h4>Riwayat Singkat Perusahaan</h4>
         <p><small>
         PT Bank Mandiri Taspen (selanjutnya disebut "Bank) didirikan di Denpasar pada tanggal 3 November 1992 berdasarkan Akta Pendirian No.4, yang dibuat di hadapan Ida Bagua Alit Sudiatmika, S.H, Notrasi
         di Denpasar dengan nama PT Bank Sinar Harapan Bali. Pendirian ini merupakan peningkatan status badan hukum yang sebelumnya berbadan hukum yang sebelumnya berbadan hukum Maskapai Andil Indonesia (MAI) menjadi Perseroan Terbatas.

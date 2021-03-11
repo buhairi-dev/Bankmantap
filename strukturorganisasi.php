@@ -1,14 +1,15 @@
 <?php include 'layout/header.php';?>
- 
 
 <section id="img-header" class="img-header">
 <img src="asset/slider4.png">
 <ul class="breadcrumb">
+
 <div class="container">
   <li><a href="#">Home</a></li>
   <li>Tentang Kami</li>
   <li>Struktur Organisasi</li>
 </div>
+
 </ul>
 </section>
 
