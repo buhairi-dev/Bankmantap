@@ -87,8 +87,8 @@
     </div>
     </li>
 
-    <li class="nav-item"><a class="nav-link mr-3" href="#" tabindex="-1" aria-disabled="true">CABANG</a></li>
-    <li class="nav-item"><a class="nav-link mr-3" href="#" tabindex="-1" aria-disabled="true">SIMULASI</a></li>        
+    <li class="nav-item"><a class="nav-link mr-3" href="cabang.php" tabindex="-1" aria-disabled="true">CABANG</a></li>
+    <li class="nav-item"><a class="nav-link mr-3" href="simulasi.php" tabindex="-1" aria-disabled="true">SIMULASI</a></li>        
     </ul>
 
     <!-- Search Bottom Here -->
