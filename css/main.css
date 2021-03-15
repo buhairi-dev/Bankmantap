@@ -141,7 +141,23 @@ a:hover{
 }
 
 
- 
+.card.branch{
+	font-family: 'Roboto', sans-serif;
+	box-shadow: 0px 20px 40px #75B2DD1A; border-radius: 12px;
+	width: 250px;
+	height: 280px;
+	padding-left:5px;
+	padding-right:5px;
+	padding-bottom:0px;
+	opacity: 50;
+}
+.card.branch h3{
+	color:#0F2B5B;
+	font-family: 'Roboto', sans-serif;
+	font-size: 13px;
+	
+}
+
 .card.simulasi{
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
@@ -269,6 +285,16 @@ a:hover{
 }
 
 
+.btn-search{
+	background-color: #0F2B5B;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	border-radius: 15px;
+	width: 120px;
+	height: 45px;
+	margin-right: 30px;
+ }
+
 .btn-wr{
 	background-color: #FFF;
 	color: #121212;
@@ -321,6 +347,24 @@ a:hover{
 	color:#FCD116;
 }
 
+#search {
+
+}
+#search select{
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	border: 1px solid #D0D8E6;
+	border-radius: 12px;
+	opacity: 1;
+	width: 135%;
+	height: 50px;
+}
+#search select, option{
+	font-family: 'Roboto', sans-serif;
+	text-align: left;
+	font-size:14px;
+	color: #AFAAA3;
+	opacity: 1;
+}
 
 
 #img-header{
