@@ -40,14 +40,14 @@
       <a class="dropdown-item" href="penghargaan.php">Penghargaan</a>
       <a class="dropdown-item" href="goodcorpgovernance.php">Good Corporate Governance</a>
       <a class="dropdown-item" href="whistleblowingsystem.php">Whistleblowing System</a>
-      <a class="dropdown-item" href="">Pengungkapan Kuantitatif Eksposur Risiko</a>
+      <a class="dropdown-item" href="pengungkapan_ksk.php">Pengungkapan Kuantitatif Eksposur Risiko</a>
     </div>
     </li> 
 
     <li class="nav-item dropdown">
     <a class="nav-link mr-3 dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PINJAMAN</a>
     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-      <a class="dropdown-item" href="">Kredit Mantap Pensiun</a>
+      <a class="dropdown-item" href="kredit_mantap_pensiun.php">Kredit Mantap Pensiun</a>
       <a class="dropdown-item" href="">Pinjaman Ritel</a>
       <a class="dropdown-item" href="">Pinjaman Mikro</a>
     </div>

@@ -495,7 +495,7 @@ section .section-title {
 }
 
 .chat-float img {
-  width: 125px;
+  width: 50px;
 }
 
 
@@ -713,3 +713,5 @@ section .section-title {
 		display: none
 	}
 	
+
+ 

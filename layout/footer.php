@@ -205,7 +205,7 @@
 <a id="milea" href="https://milea.bankmantap.co.id/" target="_blank">
    
     <div>
-      <img src="asset/milea.png" />
+      <img src="asset/icon/milea.png" width="5%">
     </div>
   </a>
   <div id="milea-tol" class="tooltip fade top in" role="tooltip" id="tooltip416138" style="top: -35px; left: -60px; display: none;">

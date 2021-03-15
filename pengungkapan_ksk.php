@@ -2,19 +2,19 @@
  
 
 <section id="img-header" class="img-header">
-<img src="asset/slider8.png">
+<img src="asset/slider10.png">
 <ul class="breadcrumb">
 <div class="container">
   <li><a href="#">Home</a></li>
   <li>Tentang Kami</li>
-  <li>Good Corporate Governance</li>
+  <li>Pengungkapan Kuantitatif Eksposur Risiko</li>
 </div>
 </ul>
 </section>
 
 <div class="container">
-<h4 style="color:#0F2B5B;">Good Corporate Governance</h4>
-<p  class="mb-4">Laporan Tata Kelola Perusahaan</p>
+<h4 style="color:#0F2B5B;">Pengungkapan Kuantitatif Eksposur Risiko</h4>
+<p  class="mb-4">Laporan pengungkapan kuantitatif eksposur risiko</p>
 
 <style>
 table {
@@ -78,69 +78,64 @@ tr .footer{
 <tbody>
   <tr>
     <td class="text-right" style="width:4%">1.</td>
-    <td style="width:25%;">2019</td>
-    <td>Laporan Tata Kelola Perusahaan Tahun 2019</td>
+    <td>2020</td>
+    <td>Laporan Kuantitatif Eksposur Risiko Desember 2020</td>
     <td>Unduh File  <img class="ml-2" src="asset/download.svg"></td>
   </tr>
   
   <tr>
     <td  class="text-right">2.</td>
-    <td>2019</td>
-    <td>KEPUTUSAN RUPST Tahun Buku 2019 Bank Mantap</td>
+    <td>2020</td>
+    <td>Laporan Total Eksposure dalam Rasio Leverage Desember 2020</td>
     <td>Unduh File  <img class="ml-2" src="asset/download.svg"></td>
   </tr>
   <tr>
     <td  class="text-right">3.</td>
-    <td>2019</td>
-    <td>Visi Misi Bank Mantap dari Annual Report 2019</td>
+    <td>2020</td>
+    <td>Laporan Kuantitatif Eksposur Risiko September 2020</td>
     <td>Unduh File  <img class="ml-2" src="asset/download.svg"></td>
   </tr>
   
   <tr>
     <td  class="text-right">4.</td>
-    <td>2019</td>
-    <td>Hubungan Afiliasi Pengurus</td>
+    <td>2020</td>
+    <td>Laporan Total Eksposure dalam Rasio Leverage September 2020</td>
     <td>Unduh File  <img class="ml-2" src="asset/download.svg"></td>
   </tr>
   
   <tr>
     <td  class="text-right">5.</td>
-    <td>2019</td>
-    <td>Mantap CSR</td>
+    <td>2020</td>
+    <td>Laporan Kuantitatif Eksposur Risiko Juni 2020</td>
     <td>Unduh File  <img class="ml-2" src="asset/download.svg"></td>
   </tr>
 
   <tr>
     <td  class="text-right">6.</td>
-    <td>2019</td>
-    <td>Kebijakan Risk Manajemen</td>
+    <td>2020</td>
+    <td>Laporan Total Eksposure dalam Rasio Leverage Juni 2020</td>
     <td>Unduh File  <img class="ml-2" src="asset/download.svg"></td>
   </tr>
 
   <tr>
     <td  class="text-right">7.</td>
-    <td>2019</td>
-    <td>Kebijakan Mekanisme Sistem Pelaporan Pelanggaran</td>
+    <td>2020</td>
+    <td>Company Profile bank Mandiri Taspen 2020</td>
     <td>Unduh File  <img class="ml-2" src="asset/download.svg"></td>
   </tr>
 
   <tr>
     <td  class="text-right">8.</td>
-    <td>2019</td>
-    <td>KEP.DIR Komite Pemantau Risiko</td>
+    <td>2020</td>
+    <td>Laporan Total Eksposure dalam Rasio Leverage Maret 2020</td>
     <td>Unduh File  <img class="ml-2" src="asset/download.svg"></td>
   <tr>
     <td  class="text-right" style="border-radius: 0px 0px 0px 16px;">9.</td>
-    <td>2019</td>
-    <td>KEP.DIR Komite Audit</td>
+    <td>2020</td>
+    <td>Laporan Kuantitatif Eksposur Risiko Maret 2020</td>
     <td>Unduh File  <img class="ml-2" src="asset/download.svg"></td>
   </tr>
-  <tr>
-    <td  class="text-right" style="border-radius: 0px 0px 0px 16px;">9.</td>
-    <td>2019</td>
-    <td>Charter Komite Remunerasi dan Nominasi</td>
-    <td>Unduh File  <img class="ml-2" src="asset/download.svg"></td>
-  </tr>
+  
 </tbody>
 
 </table>
