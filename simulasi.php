@@ -22,26 +22,27 @@
 
 <div class="row mb-5">
     <div class="col-sm">
-      <div class="card text-center">
-        <div class="card-body simulasi" style="box-shadow: 0px 20px 40px #75B2DD1A; border-radius: 12px;">
+      <div class="card simulasi">
+        <div class="card-body">
         <br/>
         <img src="asset/img-simulasi01.png" style="width: auto" class="card-img-top mb-4" alt="Image Simulasi"/>
-        <h3 class="card-title text-dark mr-3"><img src="asset/icon/calculator.png" alt="Icon" width="10%"> Simulasi Tabungan Berjangka</h3>
+        <h4><img src="asset/icon/calculator.png" alt="Icon" width="10%">&nbsp;&nbsp;Simulasi Tabungan Berjangka</h4>
+
         <p class="card-text">Tabungan Samantap Berjangka (TSB) adalah<br/>tabungan setoran wajid bulanan</p>
-        <a class="btn btn-simulasi-dark" role="button" href="#">HITUNG SIMULASI</a> 
+        <a class="btn btn-simulasi-flat" role="button" href="#">HITUNG SIMULASI</a> 
         </div>
       </div>
 		</div>
 
 
 		<div class="col-sm">
-    <div class="card text-center">
-		  <div class="card-body simulasi" style="box-shadow: 0px 20px 40px #75B2DD1A; border-radius: 12px;">
+    <div class="card simulasi">
+		  <div class="card-body">
 		  <br/>
       <img src="asset/img-simulasi02.png" style="width: auto" class="card-img-top mb-4" alt="Image Simulasi"/>
-		  <h4 class="card-title"><img src="asset/icon/calculator.png"  alt="Logo" width="10%"><strong>Simulasi Deposito</strong></h4>
-		  <p class="card-text">Untuk memastikan hang Anda diinvestasikan ditempat yang aman dan terpercaya sekaligus menguntungkan</p>
-		  <a class="btn btn-simulasi-dark" role="button" href="#">HITUNG SIMULASI</a> 
+		  <h4><img src="asset/icon/calculator.png"  alt="Logo" width="10%">&nbsp;&nbsp;Simulasi Deposito</h4>
+		  <p class="card-text">Untuk memastikan hang Anda diinvestasikan ditempat<br/>yang aman dan terpercaya sekaligus menguntungkan</p>
+		  <a class="btn btn-simulasi-flat" role="button" href="#">HITUNG SIMULASI</a> 
 		  </div>
 		</div>
     </div>
@@ -50,36 +51,26 @@
 
     <div class="row mb-5">
     <div class="col-sm">
-		<div class="card text-center">
-		  <div class="card-body simulasi" style="box-shadow: 0px 20px 40px #75B2DD1A; border-radius: 12px;">
+		<div class="card simulasi">
+    <div class="card-body">
 		  <br/>
-      <img
-                  src="asset/img-simulasi03.png"
-                  style="width: auto"
-                  class="card-img-top"
-                  alt="..."
-                />
-		  <h3 class="card-title text-dark">   <img src="asset/icon/calculator.png"  alt="Logo" width="10%"> Simulasi kredit Serbaguna Mikro</h3>
+      <img src="asset/img-simulasi03.png" style="width: auto" class="card-img-top mb-4" alt="Image Simulasi"/>
+		  <h4><img src="asset/icon/calculator.png"  alt="Logo" width="10%"> Simulasi kredit Serbaguna Mikro</h4>
 		  <p class="card-text">Penyediaan dana yang diberikan kepada pengusaha perorangan/badan usaha</p>
-		  <a class="btn btn-simulasi-dark" role="button" href="#">HITUNG SIMULASI</a> 
+		  <a class="btn btn-simulasi-flat" role="button" href="#">HITUNG SIMULASI</a> 
 		  </div>
 		</div>
 		</div>
 
 
 		<div class="col-sm">
-    <div class="card text-center">
-		  <div class="card-body simulasi" style="box-shadow: 0px 20px 40px #75B2DD1A; border-radius: 12px;">
+    <div class="card simulasi">
+    <div class="card-body">
 		  <br/>
-      <img
-                  src="asset/img-simulasi04.png"
-                  style="width: auto"
-                  class="card-img-top"
-                  alt="..."
-                />
-		  <h3 class="card-title text-dark">   <img src="asset/icon/calculator.png"  alt="Logo" width="10%"> Simulasi Kredit Pensiun</h3>
+      <img src="asset/img-simulasi04.png" style="width: 98%;" class="card-img-top mb-4" alt="Image Simulasi"/>
+		  <h4><img src="asset/icon/calculator.png"  alt="Logo" width="10%"> Simulasi Kredit Pensiun</h4>
 		  <p class="card-text">Manfaat kesempatan untuk terus berkarya dan mewujudkan rencana Anda setelah pension</p>
-		  <a class="btn btn-simulasi-dark" role="button" href="#">HITUNG SIMULASI</a> 
+		  <a class="btn btn-simulasi-flat" role="button" href="#">HITUNG SIMULASI</a> 
 		  </div>
 		</div>
     </div>

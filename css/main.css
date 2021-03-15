@@ -140,6 +140,26 @@ a:hover{
 	opacity: 1;
 }
 
+
+ 
+.card.simulasi{
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	box-shadow: 0px 20px 40px #75B2DD1A; border-radius: 12px;
+	width: 500px;
+	height: 580px;
+	padding-left:35px;
+	padding-right:20px;
+	padding-bottom:0px;
+	opacity: 50;
+}
+.card.simulasi h4{
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+}
+
+
 .card-one{
 	background: linear-gradient(to bottom, rgba(122, 151, 194, 0.748), rgba(7, 1, 56, 0.73)), url('../asset/slider2.png') no-repeat padding-box; 
 	box-shadow: 0px 10px 30px #00000014;
@@ -193,7 +213,6 @@ a:hover{
 	text-transform: uppercase;
 	transition-duration: 0.4s;
 	margin-top: 8%;
- 
 }
 
 .btn-simulasi-dark{
@@ -211,9 +230,27 @@ a:hover{
 	font-weight: 900;
 	text-transform: uppercase;
 	transition-duration: 0.4s;
-	margin-top: 10%;
- 
 }
+
+.btn-simulasi-flat {
+	background: #0F2B5B 0% 0% no-repeat padding-box;
+	color: #FCD116;
+	border-radius: 10px;
+	border: none;
+	position: center;
+	width: 250px;
+	height: 50px;
+	padding: 15px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: 900;
+	text-transform: uppercase;
+	transition-duration: 0.4s;
+	margin-top: 5%;
+	margin-bottom: 10%;
+}
+
 
 .btn-simulasi-light:hover {
 	background-color:#0F2B5B;
@@ -225,6 +262,12 @@ a:hover{
 	background-color:#FFF;
 	box-shadow: 0 8px 10px 0 rgba(0,0,0,0.24), 0 14px 40px 0 rgba(0,0,0,0.15);
 }
+
+.btn-simulasi-flat:hover {
+	background-color:#FFF;
+	box-shadow: 0 8px 10px 0 rgba(0,0,0,0.24), 0 14px 40px 0 rgba(0,0,0,0.15);
+}
+
 
 .btn-wr{
 	background-color: #FFF;
