@@ -1,4 +1,4 @@
-# bankmantap
+# Bankmantap
 This Repository for development Landing Page bank mandiri taspen
 
 Component :
