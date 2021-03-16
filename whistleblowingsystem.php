@@ -119,7 +119,8 @@
             <input type="checkbox" class="form-check-input" id="exampleCheck1">
             <label class="form-check-label" for="exampleCheck1">I'm not a robot</label>
           </div>
-          <button type="submit" class="btn btn-lg">Kirim</button>
+          <img src="asset/recaptcha.gif" width="590px">
+          <button type="submit" class="btn btn-lg btn-more">Kirim</button>
         </form>
         </div>
         </div>
