@@ -49,7 +49,7 @@
     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
       <a class="dropdown-item" href="kredit-mantap-pensiun.php">Kredit Mantap Pensiun</a>
       <a class="dropdown-item" href="pinjaman-ritel.php">Pinjaman Ritel</a>
-      <a class="dropdown-item" href="pinjaman-modal.php">Pinjaman Mikro</a>
+      <a class="dropdown-item" href="pinjaman-mikro.php">Pinjaman Mikro</a>
     </div>
     </li> 
  
