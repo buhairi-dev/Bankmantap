@@ -32,14 +32,14 @@
     <li class="nav-item dropdown">
     <a class="nav-link mr-3 dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">TENTANG KAMI</a>
     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-      <a class="dropdown-item" href="sekilasperusahaan.php">Sekilas Perusahaan</a>
-      <a class="dropdown-item" href="strukturorganisasi.php">Struktur Organisasi</a>
-      <a class="dropdown-item" href="budayakerja.php">Budaya Kerja</a>
+      <a class="dropdown-item" href="sekilas-perusahaan.php">Sekilas Perusahaan</a>
+      <a class="dropdown-item" href="struktur-organisasi.php">Struktur Organisasi</a>
+      <a class="dropdown-item" href="budaya-kerja.php">Budaya Kerja</a>
       <a class="dropdown-item" href="manajemen.php">Manajemen</a>
-      <a class="dropdown-item" href="pemegangsaham.php">Pemegang Saham</a>
+      <a class="dropdown-item" href="pemegang-saham.php">Pemegang Saham</a>
       <a class="dropdown-item" href="penghargaan.php">Penghargaan</a>
       <a class="dropdown-item" href="goodcorpgovernance.php">Good Corporate Governance</a>
-      <a class="dropdown-item" href="whistleblowingsystem.php">Whistleblowing System</a>
+      <a class="dropdown-item" href="whistleblowing-system.php">Whistleblowing System</a>
       <a class="dropdown-item" href="pengungkapan-ksk.php">Pengungkapan Kuantitatif Eksposur Risiko</a>
     </div>
     </li> 
@@ -87,7 +87,7 @@
     </div>
     </li>
 
-    <li class="nav-item"><a class="nav-link mr-3" href="kantor_cabang.php" tabindex="-1" aria-disabled="true">CABANG</a></li>
+    <li class="nav-item"><a class="nav-link mr-3" href="kantor-cabang.php" tabindex="-1" aria-disabled="true">CABANG</a></li>
     <li class="nav-item"><a class="nav-link mr-3" href="simulasi.php" tabindex="-1" aria-disabled="true">SIMULASI</a></li>        
     </ul>
 
