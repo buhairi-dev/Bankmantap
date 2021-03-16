@@ -115,12 +115,9 @@
             <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contoh: kurang lebih 10 juta rupiah">
           </div>
 
-          <div class="mb-3 form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">I'm not a robot</label>
-          </div>
+           
           <img src="asset/recaptcha.gif" width="590px">
-          <button type="submit" class="btn btn-lg btn-more">Kirim</button>
+          <button type="submit" class="btn btn-lg btn-more">Kirim </button> 
         </form>
         </div>
         </div>

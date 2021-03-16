@@ -104,7 +104,7 @@
 
       </div>
     </div>
-    <div class="mx-auto mt-5" style="width: 200px;"><p><button class="btn btn-lg btn-wr">Download Profil Lengkap Tentang Bank Mantap</button></p></div>
+    <div class="mx-auto mt-5"><p><button class="btn btn-unduh">Download Profil Lengkap Tentang Bank Mantap</button></p></div>
   </div>
    
     
