@@ -12,7 +12,7 @@
 </ul>
 </section>
 
-<div class="container text-center mt-3">
+<div class="container text-center mt-3" id="news">
 <h3 class="text-center">Dapatkan informasi berita, promosi, program terbaru serta<br/> laporan keuangan dari <strong>Bank Mantap</strong></h3>
 
 <p><br/></p>
@@ -175,4 +175,19 @@ border-radius: 12px;opacity: 1; width: 54px;height: 44px; color:#FFFF; font-size
  </div>
 
  <br/> <br/> <br/> <br/>
+
+
+ <script>
+// Add active class to the current button (highlight it)
+var header = document.getElementById("news");
+var btns = header.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active");
+  current[0].className = current[0].className.replace(" active", "");
+  this.className += " active";
+  });
+}
+</script>
+
 <?php include 'layout/footer.php';?>

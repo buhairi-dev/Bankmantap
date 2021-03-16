@@ -307,7 +307,7 @@ a:hover{
 	margin-right: 30px;
  }
 
- .btn-wr:hover{
+ .btn-wr .active:hover{
 	background-color: #FCD116;
 	color:black;
 	color: #121212;
@@ -367,11 +367,7 @@ a:hover{
 }
 
 
-
-
  
-
-
 
 #img-header{
 	margin-top:1%;
