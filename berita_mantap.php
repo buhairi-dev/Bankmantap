@@ -150,18 +150,29 @@
 
 
 </div> <!-- container -->
-<div class="container nav" id="nav">
-<nav aria-label="Page navigation example" class="nav mb-5">
-            <ul class="pagination">
-              <li class="page-item"><a class="page-link" href="#" style="color:#FFF;border-radius: 8px;background: #0F2B5B 0% 0% no-repeat padding-box;"><</a></li>
-              <li class="page-item"><a class="page-link" href="#" style="border-radius: 8px;background: #FFF 0% 0% no-repeat padding-box;">1</a></li>
-              <li class="page-item"><a class="page-link" href="#" style="border-radius: 8px;background: #FFF 0% 0% no-repeat padding-box;">2</a></li>
-              <li class="page-item"><a class="page-link" href="#" style="border-radius: 8px;background: #FFF 0% 0% no-repeat padding-box;">3</a></li>
-              <li class="page-item"><a class="page-link" href="#" style="border-radius: 8px;background: #FFF 0% 0% no-repeat padding-box;">4</a></li>
-              <li class="page-item"><a class="page-link" href="#" style="border-radius: 8px;background: #FFF 0% 0% no-repeat padding-box;">5</a></li>
-              <li class="page-item"><a class="page-link" href="#" style="color:#FFF;border-radius: 8px;background: #0F2B5B 0% 0% no-repeat padding-box;">></a></li>
-  </ul>
- </nav>
 
+
+<div class="container paging" id="page">
+  
+<nav aria-label="Page navigation example" class="paging mb-5" style="margin-left:30%;">
+    <ul class="pagination">
+    <li class="page-item mr-3"><a class="page-link active pl-4" href="#" style="border: 1px solid #0f2b5b;background: #0f2b5b 0% 0% no-repeat padding-box;border: 1px solid #0F2B5B;
+border-radius: 12px;opacity: 1; width: 54px;height: 44px; color:#FFFF; font-size:20px; "><</a></li>
+    <li class="page-item mr-3"><a class="page-link pl-3" href="#" style="border: 1px solid #0f2b5b;background: #FFFFFF 0% 0% no-repeat padding-box;border: 1px solid #0F2B5B;
+border-radius: 12px;opacity: 1; width: 54px;height: 44px; font-size:14px;">1</a></li>
+    <li class="page-item mr-3"><a class="page-link pl-3" href="#" style="border: 1px solid #0f2b5b;background: #FFFFFF 0% 0% no-repeat padding-box;border: 1px solid #0F2B5B;
+border-radius: 12px;opacity: 1; width: 54px;height: 44px; font-size:14px;">2</a></li>
+    <li class="page-item mr-3"><a class="page-link pl-3" href="#" style="border: 1px solid #0f2b5b;background: #FFFFFF 0% 0% no-repeat padding-box;border: 1px solid #0F2B5B;
+border-radius: 12px;opacity: 1; width: 54px;height: 44px; font-size:14px;">3</a></li>
+    <li class="page-item mr-3"><a class="page-link pl-3" href="#" style="border: 1px solid #0f2b5b;background: #FFFFFF 0% 0% no-repeat padding-box;border: 1px solid #0F2B5B;
+border-radius: 12px;opacity: 1; width: 54px;height: 44px; font-size:14px;">4</a></li>
+    <li class="page-item mr-3"><a class="page-link pl-3" href="#" style="border: 1px solid #0f2b5b;background: #FFFFFF 0% 0% no-repeat padding-box;border: 1px solid #0F2B5B;
+border-radius: 12px;opacity: 1; width: 54px;height: 44px; font-size:14px;">5</a></li>
+    <li class="page-item mr-3"><a class="page-link pl-3" href="#" style="border: 1px solid #0f2b5b;background: #0f2b5b 0% 0% no-repeat padding-box;border: 1px solid #0F2B5B;
+border-radius: 12px;opacity: 1; width: 54px;height: 44px; color:#FFFF; font-size:20px">></a></li>
+  </ul>
+ </nav> 
  </div>
+
+ <br/> <br/> <br/> <br/>
 <?php include 'layout/footer.php';?>

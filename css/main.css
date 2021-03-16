@@ -367,9 +367,11 @@ a:hover{
 }
 
 
-#nav-{
-	
-}
+
+
+ 
+
+
 
 #img-header{
 	margin-top:1%;
@@ -595,7 +597,7 @@ section .section-title {
 .float-menu {
 	display: block;
 	position: fixed;
-	top: 50%;
+	top: 40%;
 	z-index: 9;
 	right: 0
 }
