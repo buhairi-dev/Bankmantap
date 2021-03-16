@@ -40,38 +40,38 @@
       <a class="dropdown-item" href="penghargaan.php">Penghargaan</a>
       <a class="dropdown-item" href="goodcorpgovernance.php">Good Corporate Governance</a>
       <a class="dropdown-item" href="whistleblowingsystem.php">Whistleblowing System</a>
-      <a class="dropdown-item" href="pengungkapan_ksk.php">Pengungkapan Kuantitatif Eksposur Risiko</a>
+      <a class="dropdown-item" href="pengungkapan-ksk.php">Pengungkapan Kuantitatif Eksposur Risiko</a>
     </div>
     </li> 
 
     <li class="nav-item dropdown">
     <a class="nav-link mr-3 dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PINJAMAN</a>
     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-      <a class="dropdown-item" href="kredit_mantap_pensiun.php">Kredit Mantap Pensiun</a>
-      <a class="dropdown-item" href="">Pinjaman Ritel</a>
-      <a class="dropdown-item" href="">Pinjaman Mikro</a>
+      <a class="dropdown-item" href="kredit-mantap-pensiun.php">Kredit Mantap Pensiun</a>
+      <a class="dropdown-item" href="pinjaman-ritel.php">Pinjaman Ritel</a>
+      <a class="dropdown-item" href="pinjaman-modal.php">Pinjaman Mikro</a>
     </div>
     </li> 
  
     <li class="nav-item dropdown">
     <a class="nav-link mr-3 dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SIMPANAN</a>
     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-      <a class="dropdown-item" href="">Simpanan Tabunganku</a>
-      <a class="dropdown-item" href="">Tabungan siMantap Berjangka</a>
-      <a class="dropdown-item" href="">Tabungan Simantap</a>
-      <a class="dropdown-item" href="">Tabungan Simantap Pensiun</a>
-      <a class="dropdown-item" href="">Deposito Mantap</a>
-      <a class="dropdown-item" href="">Giro</a>
+      <a class="dropdown-item" href="simpanan-tabunganku.php">Simpanan Tabunganku</a>
+      <a class="dropdown-item" href="tabungan-simantap-berjangka.php">Tabungan siMantap Berjangka</a>
+      <a class="dropdown-item" href="tabungan-simantap.php">Tabungan Simantap</a>
+      <a class="dropdown-item" href="tabungan-simantap-pensiun.php">Tabungan Simantap Pensiun</a>
+      <a class="dropdown-item" href="deposito-mantap.php">Deposito Mantap</a>
+      <a class="dropdown-item" href="giro.php">Giro</a>
     </div>
     </li> 
 
     <li class="nav-item dropdown">
     <a class="nav-link mr-3 dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">INFO MANTAP</a>
     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-      <a class="dropdown-item" href="berita_mantap.php">Berita Mantap</a>
-      <a class="dropdown-item" href="promosi_mantap.php">Promosi Mantap</a>
-      <a class="dropdown-item" href="program_mantap.php">Program Mantap</a>
-      <a class="dropdown-item" href="laporan_keuangan.php">Laporan Keuangan</a>
+      <a class="dropdown-item" href="berita-mantap.php">Berita Mantap</a>
+      <a class="dropdown-item" href="promosi-mantap.php">Promosi Mantap</a>
+      <a class="dropdown-item" href="program-mantap.php">Program Mantap</a>
+      <a class="dropdown-item" href="laporan-keuangan.php">Laporan Keuangan</a>
     </div>
     </li>
     
@@ -79,11 +79,11 @@
     <li class="nav-item dropdown">
     <a class="nav-link mr-3 dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">JASA BANK</a>
     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-      <a class="dropdown-item" href="">Tarif Layanan</a>
-      <a class="dropdown-item" href="">Bank Garansi</a>
-      <a class="dropdown-item" href="">Referensi Bank</a>
-      <a class="dropdown-item" href="">Transfer</a>
-      <a class="dropdown-item" href="">Inkaso</a>
+      <a class="dropdown-item" href="tarif-layanan.php">Tarif Layanan</a>
+      <a class="dropdown-item" href="bank-garansi.php">Bank Garansi</a>
+      <a class="dropdown-item" href="referensi-bank.php">Referensi Bank</a>
+      <a class="dropdown-item" href="transfer.php">Transfer</a>
+      <a class="dropdown-item" href="inkaso.php">Inkaso</a>
     </div>
     </li>
 
