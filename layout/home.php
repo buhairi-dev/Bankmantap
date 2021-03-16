@@ -1,4 +1,3 @@
- 
 <!-- ====================================================== CAROUSEL  ======================================================= -->
 <section id="hero" class="carousel slide" data-ride="carousel">
 
@@ -107,14 +106,14 @@
  
 
 <br><br><br><br>
-<div class="container" align="center">
+<div class="container text-center">
 <h3 class="text-center">Dapatkan informasi berita, promosi, program terbaru serta<br/> laporan keuangan dari <strong>Bank Mantap</strong></h3>
 
 <p><br/></p>
-<p><a class="btn btn-lg btn-outline-secondary btn-wr" href="#" role="button">Berita Mantap</a>
-<a class="btn btn-lg btn-outline-secondary  btn-wr" href="#" role="button">Promosi Mantap</a>
-<a class="btn btn-lg btn-outline-secondary  btn-wr" href="#" role="button">Program Mantap</a>
-<a class="btn btn-lg btn-outline-secondary  btn-wr" href="#" role="button">Laporan Keuangan</a></p>
+<p><a class="btn btn-lg  btn-wr active" href="#" role="button">Berita Mantap</a>
+<a class="btn btn-lg  btn-wr" href="#" role="button">Promosi Mantap</a>
+<a class="btn btn-lg  btn-wr" href="#" role="button">Program Mantap</a>
+<a class="btn btn-lg  btn-wr" href="#" role="button">Laporan Keuangan</a></p>
 
 </section>
 <!-- ==================================================  /SIMULATION ====================================================== -->

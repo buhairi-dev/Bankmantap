@@ -297,6 +297,7 @@ a:hover{
 
 .btn-wr{
 	background-color: #FFF;
+	border: 1px solid #AFAAA3;
 	color: #121212;
 	opacity: 0.5;
 	font-size: 13px;
@@ -307,7 +308,7 @@ a:hover{
 	margin-right: 30px;
  }
 
- .btn-wr .active:hover{
+ .btn-wr:hover{
 	background-color: #FCD116;
 	color:black;
 	color: #121212;

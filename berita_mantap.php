@@ -1,5 +1,21 @@
 <?php include 'layout/header.php';?>
- 
+
+<style>
+.active,.btn-wr:hover{
+	background-color: #FCD116;
+	color:black;
+	color: #121212;
+	opacity: 1;
+	font-size: 13px;
+	border-radius: 25px;
+	width: 179px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+	border:none;
+	transition-duration: 0.7s;
+	box-shadow: 0 8px 10px 0 rgba(0,0,0,0.24), 0 14px 40px 0 rgba(0,0,0,0.15);
+ }
+</style>
 
 <section id="img-header" class="img-header">
 <img src="asset/slider_berita_mantap.png">
@@ -16,10 +32,10 @@
 <h3 class="text-center">Dapatkan informasi berita, promosi, program terbaru serta<br/> laporan keuangan dari <strong>Bank Mantap</strong></h3>
 
 <p><br/></p>
-<p><a class="btn btn-lg   btn-wr active" href="#" role="button">Berita Mantap</a>
-<a class="btn btn-lg    btn-wr" href="#" role="button">Promosi Mantap</a>
-<a class="btn btn-lg    btn-wr" href="#" role="button">Program Mantap</a>
-<a class="btn btn-lg   btn-wr" href="#" role="button">Laporan Keuangan</a></p>
+<p><a class="btn btn-lg btn-wr active" href="#" role="button">Berita Mantap</a>
+<a class="btn btn-lg btn-wr" href="#" role="button">Promosi Mantap</a>
+<a class="btn btn-lg btn-wr" href="#" role="button">Program Mantap</a>
+<a class="btn btn-lg btn-wr" href="#" role="button">Laporan Keuangan</a></p>
 
 </div>
 
@@ -177,17 +193,6 @@ border-radius: 12px;opacity: 1; width: 54px;height: 44px; color:#FFFF; font-size
  <br/> <br/> <br/> <br/>
 
 
- <script>
-// Add active class to the current button (highlight it)
-var header = document.getElementById("news");
-var btns = header.getElementsByClassName("btn");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function() {
-  var current = document.getElementsByClassName("active");
-  current[0].className = current[0].className.replace(" active", "");
-  this.className += " active";
-  });
-}
-</script>
+
 
 <?php include 'layout/footer.php';?>
