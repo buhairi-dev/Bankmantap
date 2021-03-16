@@ -82,10 +82,10 @@
 		<div class="card card-one">
 		  <div class="card-body">
 		  <br/>
-		  <h3 class="card-title text-light">   <img src="asset/campain.png"  alt="Logo" width="10%"> Whistleblowing System</h3>
+		  <h3 class="card-title text-light"><img src="asset/campain.png"  alt="Logo" width="5%"> Whistleblowing System</h3>
 		  <p class="card-text">Jika Anda yang memiliki informasi dan ingin melaporkan suatu perbuatan berindikasi
       pelanggaran yang terjadi di lingkungan PT Mandiri Taspen</p>
-		  <a class="btn btn-simulasi-light" role="button" href="#">LAPOR WHISTLEBLOWING</a> 
+		  <a class="btn btn-simulasi-light" role="button" href="whistleblowingsystem.php">LAPOR WHISTLEBLOWING</a> 
 		  </div>
 		</div>
 		</div>
@@ -96,8 +96,8 @@
 		  <div class="card-body">
 		  <br/>
 		  <h4 class="card-title"> <img src="asset/icon/calculator.png"  alt="Logo" width="10%"> Simulasi Tahapan Berjangka</h4>
-		  <p class="card-text mt-4">Lakukan simulasi perhitungan besar dana yang terkumpul dengan rentang bulan yang Anda pilih.</p>
-      <a class="btn btn-outline-light btn-simulasi-dark" href="#" role="button">HITUNG SIMULASI</a>
+		  <p class="card-text mt-4 mb-5">Lakukan simulasi perhitungan besar dana yang terkumpul dengan rentang bulan yang Anda pilih.</p>
+      <a class="btn btn-outline-light btn-simulasi-dark" href="simulasi.php" role="button">HITUNG SIMULASI</a>
 		  </div>
 		</div>
     </div>
@@ -106,8 +106,8 @@
 
  
 
-<br><br><br><br>
-<div class="container" align="center">
+<br/><br/>
+<div class="container text-center mt-5">
 <h3 class="text-center">Dapatkan informasi berita, promosi, program terbaru serta<br/> laporan keuangan dari <strong>Bank Mantap</strong></h3>
 
 <p><br/></p>
@@ -115,10 +115,10 @@
 <a class="btn btn-lg btn-outline-secondary  btn-wr" href="#" role="button">Promosi Mantap</a>
 <a class="btn btn-lg btn-outline-secondary  btn-wr" href="#" role="button">Program Mantap</a>
 <a class="btn btn-lg btn-outline-secondary  btn-wr" href="#" role="button">Laporan Keuangan</a></p>
-
+</div>
 </section>
 <!-- ==================================================  /SIMULATION ====================================================== -->
-<br/>
+ 
 
 
 

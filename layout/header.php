@@ -68,10 +68,10 @@
     <li class="nav-item dropdown">
     <a class="nav-link mr-3 dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">INFO MANTAP</a>
     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-      <a class="dropdown-item" href="">Berita Mantap</a>
-      <a class="dropdown-item" href="">Promosi Mantap</a>
-      <a class="dropdown-item" href="">Program Mantap</a>
-      <a class="dropdown-item" href="">Laporan Keuangan</a>
+      <a class="dropdown-item" href="berita_mantap.php">Berita Mantap</a>
+      <a class="dropdown-item" href="promosi_mantap.php">Promosi Mantap</a>
+      <a class="dropdown-item" href="program_mantap.php">Program Mantap</a>
+      <a class="dropdown-item" href="laporan_keuangan.php">Laporan Keuangan</a>
     </div>
     </li>
     
@@ -87,7 +87,7 @@
     </div>
     </li>
 
-    <li class="nav-item"><a class="nav-link mr-3" href="cabang.php" tabindex="-1" aria-disabled="true">CABANG</a></li>
+    <li class="nav-item"><a class="nav-link mr-3" href="kantor_cabang.php" tabindex="-1" aria-disabled="true">CABANG</a></li>
     <li class="nav-item"><a class="nav-link mr-3" href="simulasi.php" tabindex="-1" aria-disabled="true">SIMULASI</a></li>        
     </ul>
 

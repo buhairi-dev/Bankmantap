@@ -323,11 +323,11 @@ a:hover{
  }
 
 .btn-more{
- 	background-color: #FCD116;
-	color:#000;
+ 	background-color: #0F2B5B;
+	color:#FFF;
  	font-size: 13px;
  	border-radius: 25px;
-	width: 200px;
+	width: 250px;
 	padding: 12px;
 }
 
@@ -338,7 +338,7 @@ a:hover{
 	font-size: 13px;
 	font-weight: 900;
 	border-radius: 25px;
-	width: 200px;
+	width: 251px;
 	box-shadow: 0 8px 10px 0 rgba(0,0,0,0.24), 0 14px 40px 0 rgba(0,0,0,0.15);
 }
 
@@ -366,6 +366,10 @@ a:hover{
 	opacity: 1;
 }
 
+
+#nav-{
+	
+}
 
 #img-header{
 	margin-top:1%;
@@ -591,7 +595,7 @@ section .section-title {
 .float-menu {
 	display: block;
 	position: fixed;
-	top: 300px;
+	top: 50%;
 	z-index: 9;
 	right: 0
 }

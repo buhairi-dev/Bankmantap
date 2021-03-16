@@ -151,7 +151,7 @@
     <div class="row small-footer">
       <div class="col-sm">
       <div class="cell text-center">
-        <small><a>Copyright &copy; 2017 PT. Bank Mandiri Taspen. All Rights Reserved</a></small>
+        <small  style="color: #808080;"><a>Copyright &copy; 2017 PT. Bank Mandiri Taspen. All Rights Reserved</a></small>
       </div>
     </div>
      <div class="col-sm small-footer">
