@@ -5,7 +5,7 @@
      
         <div class="row">
             &nbsp
-            <div id="googlemap" style="width: 100%; height: 400px;"></div>
+            <div id="googlemap" style="width: 100%; height: 470px;"></div>
         </div>
  
 </div>
