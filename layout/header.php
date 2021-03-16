@@ -25,7 +25,7 @@
 <div class="collapse navbar-collapse" style="margin-left:10%;" id="navbarSupportedContent">
 
     <ul class="navbar-nav" style="font-size:12px; font-weight: bold;">
-    <li class="nav-item active" >
+    <li class="nav-item">
     <a class="nav-link mr-3" href="index.php">BERANDA <span class="sr-only">(current)</span></a>
     </li>
          
