@@ -227,11 +227,7 @@
   
     </div>
     <!--Second slide--> 
-  
-    
-    <!--/.Second slide-->
-  
-  
+ 
   </div>
   <!--/.Slides-->
 

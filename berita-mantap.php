@@ -170,8 +170,8 @@
 </div> <!-- container -->
 
 
-<div class="container paging" id="page">
-  
+<!-- PAGGING -->
+<div class="container" id="page">
 <nav aria-label="Page navigation example" class="paging mb-5" style="margin-left:30%;">
     <ul class="pagination">
     <li class="page-item mr-3"><a class="page-link active pl-4" href="#" style="border: 1px solid #0f2b5b;background: #0f2b5b 0% 0% no-repeat padding-box;border: 1px solid #0F2B5B;
@@ -191,6 +191,8 @@ border-radius: 12px;opacity: 1; width: 54px;height: 44px; color:#FFFF; font-size
   </ul>
  </nav> 
  </div>
+<!-- PAGGING -->
+
 
  <br/> <br/> <br/> <br/>
 

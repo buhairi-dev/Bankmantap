@@ -56,7 +56,7 @@ tr .footer{
 <table>
 <thead>
   <tr>
-    <th class="pl-4" style="border-radius: 16px 0px 0px 0px;" colspan="2">Tahun 2000</th>
+    <th class="pl-4" style="border-radius: 16px 0px 0px 0px;" colspan="2">Tahun</th>
     <th>Diskripsi</th>
     
   <th style="border-radius: 0px 16px 0px 0px; width:12%;">
