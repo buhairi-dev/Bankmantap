@@ -84,7 +84,7 @@
 		  <h3 class="card-title text-light">   <img src="asset/campain.png"  alt="Logo" width="10%"> Whistleblowing System</h3>
 		  <p class="card-text">Jika Anda yang memiliki informasi dan ingin melaporkan suatu perbuatan berindikasi
       pelanggaran yang terjadi di lingkungan PT Mandiri Taspen</p>
-		  <a class="btn btn-simulasi-light" role="button" href="whistleblowingsystem.php">LAPOR WHISTLEBLOWING</a> 
+		  <a class="btn btn-simulasi-light" role="button" href="whistleblowing-system.php">LAPOR WHISTLEBLOWING</a> 
 		  </div>
 		</div>
 		</div>
@@ -96,7 +96,7 @@
 		  <br/>
 		  <h4 class="card-title"> <img src="asset/icon/calculator.png"  alt="Logo" width="10%"> Simulasi Tahapan Berjangka</h4>
 		  <p class="card-text mt-4">Lakukan simulasi perhitungan besar dana yang terkumpul dengan rentang bulan yang Anda pilih.</p>
-      <a class="btn btn-outline-light btn-simulasi-dark" href="simulasi.php" role="button">HITUNG SIMULASI</a>
+      <a class="btn btn-outline-light btn-simulasi-dark mt-5" href="simulasi.php" role="button">HITUNG SIMULASI</a>
 		  </div>
 		</div>
     </div>
