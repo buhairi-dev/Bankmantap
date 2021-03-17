@@ -28,7 +28,9 @@
 </ul>
 </section>
 
-<div class="container text-center mt-3" id="news">
+<section class="section">
+<!-- Content Start Here -->
+<div class="container text-center" id="news">
 <h3 class="text-center">Dapatkan informasi berita, promosi, program terbaru serta<br/> laporan keuangan dari <strong>Bank Mantap</strong></h3>
 
 <p><br/></p>
@@ -192,7 +194,7 @@ border-radius: 12px;opacity: 1; width: 54px;height: 44px; color:#FFFF; font-size
 
  <br/> <br/> <br/> <br/>
 
-
+ </section>
 
  <script>
 // Add active class to the current button (highlight it)
@@ -206,3 +208,5 @@ for (var i = 0; i < btns.length; i++) {
   });
 }
 </script>
+
+<?php include 'layout/footer.php';?>
