@@ -30,50 +30,58 @@
             <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
                 <div class="row">
                     <div class="col-lg-4">
-                        <div class="card" style="width: 20rem; box-shadow: 0px 20px 40px #00000014; border-radius: 16px;">
-                            <img class="card-img-top" src="asset/dewankomisaris_01.png" alt="Card image cap">
-                            <div class="card-body" style="text-align: center;">
-                            <p class="card-text" style="font-size: 20px; font-weight: 500;">Abdul Rahman</p>
-                            <p class="card-text" style="font-size: 12px;">Komisaris Utama</p>
-                            <p class="card-text"><a href="" data-toggle="modal" data-target="#myModal">Lihat Profil</a></p>
-                            </div>
+                    <div class="card bg-white text-white">
+                    <img src="asset/dewankomisaris_01.png" class="card-img" alt="..."
+                    style="width: 22rem; box-shadow: 0px 20px 40px #00000014; border-radius: 16 px 16px; height:25rem;">
+                        <div class="card-img-overlay" style="margin-top:86%;">
+                            <p class="card-text" style="font-size: 20px; font-weight: 500;"><!-- nama pejabat --></p>
+                            <p class="card-text" style="font-size: 12px;"><!-- jabatam --></p>
+                        </div>
                         </div>
                     </div>
+
                     <div class="col-lg-4">
-                        <div class="card" style="width: 20rem; box-shadow: 0px 20px 40px #00000014; border-radius: 16px;">
-                            <img class="card-img-top" src="asset/dewankomisaris_01.png" alt="Card image cap">
-                            <div class="card-body" style="text-align: center;">
-                            <p class="card-text" style="font-size: 20px; font-weight: 500;">Zudan Arif Fakhrullah</p>
-                            <p class="card-text" style="font-size: 12px;">Komisaris Independen *)</p>
-                            <p class="card-text"><a href="#">Lihat Profil</a></p>
-                            </div>
+                    <div class="card bg-white text-white">
+                    <img src="asset/dewankomisaris_02.png" class="card-img" alt="..."
+                    style="width: 22rem; box-shadow: 0px 20px 40px #00000014; border-radius: 16 px 16px; height:25rem;">
+                        <div class="card-img-overlay" style="margin-top:86%;">
+                            <p class="card-text" style="font-size: 20px; font-weight: 500;"><!-- nama pejabat --></p>
+                            <p class="card-text" style="font-size: 12px;"><!-- jabatam --></p>
+                        </div>
                         </div>
                     </div>
+
                     <div class="col-lg-4">
-                        <div class="card" style="width: 20rem; box-shadow: 0px 20px 40px #00000014; border-radius: 16px;">
-                            <img class="card-img-top" src="asset/dewankomisaris_01.png" alt="Card image cap">
-                            <div class="card-body" style="text-align: center;">
-                            <p class="card-text" style="font-size: 20px; font-weight: 500;">Abdul Rahman</p>
-                            <p class="card-text" style="font-size: 12px;">Komisaris Independen</p>
-                            <p class="card-text"><a href="#">Lihat Profil</a></p>
-                            </div>
+                    <div class="card bg-white text-white">
+                            <img src="asset/dewankomisaris_03.png" class="card-img" alt="..."
+                            style="width: 22rem; box-shadow: 0px 20px 40px #00000014; border-radius: 16 px 16px; height:25rem;">
+                        <div class="card-img-overlay" style="margin-top:86%;">
+                            <p class="card-text" style="font-size: 20px; font-weight: 500;"><!-- nama pejabat --></p>
+                            <p class="card-text" style="font-size: 12px;"><!-- jabatam --></p>
+                        </div>
                         </div>
                     </div>
+
+                   
                 </div>
                  
-                <div class="row mt-5">
-                    <div class="col-lg-4">
-                        <div class="card" style="width: 20rem; box-shadow: 0px 20px 40px #00000014; border-radius: 16px;">
-                            <img class="card-img-top" src="asset/dewankomisaris_01.png" alt="Card image cap">
-                            <div class="card-body" style="text-align: center;">
-                            <p class="card-text" style="font-size: 20px; font-weight: 500;">Andi Rivai</p>
-                            <p class="card-text" style="font-size: 12px;">Komisaris Independen *)</p>
-                            <p class="card-text"><a href="#">Lihat Profil</a></p>
-                            </div>
+                <div class="row mt-4">
+
+                <div class="col-lg-4">
+                <div class="card bg-white text-white">
+                    <img src="asset/dewankomisaris_04.png" class="card-img" alt="..."
+                    style="width: 22rem; box-shadow: 0px 20px 40px #00000014; border-radius: 16 px 16px; height:25rem;">
+                        <div class="card-img-overlay" style="margin-top:86%;">
+                            <p class="card-text" style="font-size: 20px; font-weight: 500;"><!-- nama pejabat --></p>
+                            <p class="card-text" style="font-size: 12px;"><!-- jabatam --></p>
                         </div>
-                    </div>
                 </div>
+                </div>
+                </div>
+
             </div>
+
+
             <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
                 <div class="row">
                     <div class="col-lg-4">
