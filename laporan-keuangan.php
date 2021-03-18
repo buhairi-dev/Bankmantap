@@ -1,5 +1,21 @@
 <?php include 'layout/header.php';?>
 
+<style>
+.active,.btn-wr:hover{
+	background-color: #FCD116;
+	color:black;
+	color: #121212;
+	opacity: 1;
+	font-size: 13px;
+	border-radius: 25px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+	border:none;
+	transition-duration: 0.7s;
+	box-shadow: 0 8px 10px 0 rgba(0,0,0,0.24), 0 14px 40px 0 rgba(0,0,0,0.15);
+ }
+</style>
+
 
 <style>
 table {
@@ -60,11 +76,10 @@ tr .footer{
 <h3 class="text-center">Dapatkan informasi berita, promosi, program terbaru serta<br/> laporan keuangan dari <strong>Bank Mantap</strong></h3>
 
 <p><br/></p>
-<p><a class="btn btn-lg btn-wr" href="#" role="button">Berita Mantap</a>
-<a class="btn btn-lg btn-wr" href="#" role="button">Promosi Mantap</a>
-<a class="btn btn-lg btn-wr" href="#" role="button">Program Mantap</a>
-<a class="btn btn-lg btn-wr" href="#" role="button">Laporan Keuangan</a></p>
-
+<p><a class="btn btn-lg btn-wr" href="berita-mantap.php" role="button">Berita Mantap</a>
+<a class="btn btn-lg btn-wr" href="promosi-mantap.php" role="button">Promosi Mantap</a>
+<a class="btn btn-lg btn-wr" href="program-mantap.php" role="button">Program Mantap</a>
+<a class="btn btn-lg btn-wr active" href="laporan-keuangan.php" role="button">Laporan Keuangan</a></p>
 </div> <!-- container -->
 
 <div class="container mt-5 mb-5">
@@ -93,7 +108,7 @@ tr .footer{
        <div class="card mb-2" style="height: 23rem; box-shadow: 0px 20px 40px #75B2DD1A;border-radius: 12px 12px 0px 0px; opacity: 1;">
           <img class="card-img-top" src="asset/report1.png" alt="Card image cap"  style="height: 12rem;">
           <div class="card-body">
-          <p class="card-text text-left" style="color: #0F2B5B; cursor:pointer;" onclick="location.href='404.html';"><strong>Sustainablity Report 2019</strong></p>
+          <p class="card-text text-left" style="color: #0F2B5B; cursor:pointer;" onclick="location.href='berita-mantap-detail.php';"><strong>Sustainablity Report 2019</strong></p>
           <p class="card-text text-left"><small class="text-muted">Tahun 2019</small></p>
           </div>
         </div>
@@ -103,7 +118,7 @@ tr .footer{
         <div class="card mb-2" style="height: 23rem; box-shadow: 0px 20px 40px #75B2DD1A;border-radius: 12px 12px 0px 0px; opacity: 1;">
           <img class="card-img-top" src="asset/report2.png" alt="Card image cap"  style="height: 12rem;">
           <div class="card-body">
-          <p class="card-text text-left" style="color: #0F2B5B; cursor:pointer;" onclick="location.href='404.html';"><strong>Penguatan Wirausaha Membangun Daya Tahan Sistemik</strong></p>
+          <p class="card-text text-left" style="color: #0F2B5B; cursor:pointer;" onclick="location.href='berita-mantap-detail.php';"><strong>Penguatan Wirausaha Membangun Daya Tahan Sistemik</strong></p>
           <p class="card-text text-left"><small class="text-muted">Tahun 2019</small></p>
           </div>
         </div>
@@ -113,7 +128,7 @@ tr .footer{
         <div class="card mb-2" style="height: 23rem; box-shadow: 0px 20px 40px #75B2DD1A;border-radius: 12px 12px 0px 0px; opacity: 1;">
           <img class="card-img-top" src="asset/report3.png" alt="Card image cap"  style="height: 12rem;">
           <div class="card-body">
-          <p class="card-text text-left" style="color: #0F2B5B; cursor:pointer;" onclick="location.href='404.html';"><strong>Berkarya Bersama Mantap</strong></p>
+          <p class="card-text text-left" style="color: #0F2B5B; cursor:pointer;" onclick="location.href='berita-mantap-detail.php';"><strong>Berkarya Bersama Mantap</strong></p>
           <p class="card-text text-left"><small class="text-muted">Tahun 2019</small></p>
           </div>
         </div>
@@ -123,7 +138,7 @@ tr .footer{
         <div class="card mb-2" style="height: 23rem; box-shadow: 0px 20px 40px #75B2DD1A;border-radius: 12px 12px 0px 0px; opacity: 1;">
           <img class="card-img-top" src="asset/report4.png" alt="Card image cap"  style="height: 12rem;">
           <div class="card-body">
-          <p class="card-text text-left" style="color: #0F2B5B; cursor:pointer;" onclick="location.href='404.html';"><strong>Penguatan Bisnis Membangun Kesejahteraan</strong></p>
+          <p class="card-text text-left" style="color: #0F2B5B; cursor:pointer;" onclick="location.href='berita-mantap-detail.php';"><strong>Penguatan Bisnis Membangun Kesejahteraan</strong></p>
           <p class="card-text text-left"><small class="text-muted">Tahun 2019</small></p>
           </div>
         </div>
@@ -139,7 +154,7 @@ tr .footer{
        <div class="card mb-2" style="height: 23rem; box-shadow: 0px 20px 40px #75B2DD1A;border-radius: 12px 12px 0px 0px; opacity: 1;">
           <img class="card-img-top" src="asset/report1.png" alt="Card image cap"  style="height: 12rem;">
           <div class="card-body">
-          <p class="card-text text-left" style="color: #0F2B5B; cursor:pointer;" onclick="location.href='404.html';"><strong>Sustainablity Report 2019</strong></p>
+          <p class="card-text text-left" style="color: #0F2B5B; cursor:pointer;" onclick="location.href='berita-mantap-detail.php';"><strong>Sustainablity Report 2019</strong></p>
           <p class="card-text text-left"><small class="text-muted">Tahun 2019</small></p>
           </div>
         </div>
@@ -149,7 +164,7 @@ tr .footer{
         <div class="card mb-2" style="height: 23rem; box-shadow: 0px 20px 40px #75B2DD1A;border-radius: 12px 12px 0px 0px; opacity: 1;">
           <img class="card-img-top" src="asset/report2.png" alt="Card image cap"  style="height: 12rem;">
           <div class="card-body">
-          <p class="card-text text-left" style="color: #0F2B5B; cursor:pointer;" onclick="location.href='404.html';"><strong>Penguatan Wirausaha Membangun Daya Tahan Sistemik</strong></p>
+          <p class="card-text text-left" style="color: #0F2B5B; cursor:pointer;" onclick="location.href='berita-mantap-detail.php';"><strong>Penguatan Wirausaha Membangun Daya Tahan Sistemik</strong></p>
           <p class="card-text text-left"><small class="text-muted">Tahun 2019</small></p>
           </div>
         </div>
@@ -159,7 +174,7 @@ tr .footer{
         <div class="card mb-2" style="height: 23rem; box-shadow: 0px 20px 40px #75B2DD1A;border-radius: 12px 12px 0px 0px; opacity: 1;">
           <img class="card-img-top" src="asset/report3.png" alt="Card image cap"  style="height: 12rem;">
           <div class="card-body">
-          <p class="card-text text-left" style="color: #0F2B5B; cursor:pointer;" onclick="location.href='404.html';"><strong>Berkarya Bersama Mantap</strong></p>
+          <p class="card-text text-left" style="color: #0F2B5B; cursor:pointer;" onclick="location.href='berita-mantap-detail.php';"><strong>Berkarya Bersama Mantap</strong></p>
           <p class="card-text text-left"><small class="text-muted">Tahun 2019</small></p>
           </div>
         </div>
@@ -169,7 +184,7 @@ tr .footer{
         <div class="card mb-2" style="height: 23rem; box-shadow: 0px 20px 40px #75B2DD1A;border-radius: 12px 12px 0px 0px; opacity: 1;">
           <img class="card-img-top" src="asset/report4.png" alt="Card image cap"  style="height: 12rem;">
           <div class="card-body">
-          <p class="card-text text-left" style="color: #0F2B5B; cursor:pointer;" onclick="location.href='404.html';"><strong>Penguatan Bisnis Membangun Kesejahteraan</strong></p>
+          <p class="card-text text-left" style="color: #0F2B5B; cursor:pointer;" onclick="location.href='berita-mantap-detail.php';"><strong>Penguatan Bisnis Membangun Kesejahteraan</strong></p>
           <p class="card-text text-left"><small class="text-muted">Tahun 2019</small></p>
           </div>
         </div>

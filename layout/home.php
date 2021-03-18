@@ -146,7 +146,7 @@
           <img class="card-img-top" src="asset/minislide1.png" alt="Card image cap"  style="height: 12rem;">
           <div class="card-body">
           <p class="card-text text-left"><small class="text-muted">Last Update : 7 Des 2020</small></p>
-          <p class="card-text text-left" style="color: #0F2B5B; cursor:pointer;" onclick="location.href='404.html';">Bank Mantap Serahkan Bantuan Alat Pelindung Diri Kepada RSPI Sulianti Saroso</p>
+          <p class="card-text text-left" style="color: #0F2B5B; cursor:pointer;" onclick="location.href='berita-mantap-detail.php';">Bank Mantap Serahkan Bantuan Alat Pelindung Diri Kepada RSPI Sulianti Saroso</p>
           </div>
         </div>
       </div>
@@ -156,7 +156,7 @@
           <img class="card-img-top" src="asset/minislide2.png" alt="Card image cap"  style="height: 12rem;">
           <div class="card-body">
           <p class="card-text text-left"><small class="text-muted">Last Update : 16 Nov 2020</small></p>
-          <p class="card-text text-left" style="color:#0F2B5B; cursor:pointer;" onclick="location.href='404.html';">Hadiah langsung tabungan siMantap, tentukan hadiahmu!</p>   
+          <p class="card-text text-left" style="color:#0F2B5B; cursor:pointer;" onclick="location.href='berita-mantap-detail.php';">Hadiah langsung tabungan siMantap, tentukan hadiahmu!</p>   
           </div>
         </div>
       </div>
@@ -166,7 +166,7 @@
           <img class="card-img-top" src="asset/minislide3.png" alt="Card image cap" style="height: 12rem;">
           <div class="card-body">
           <p class="card-text text-left"><small class="text-muted">Last Update : 10 Nov 2020</small></p>
-          <p class="card-text text-left" style="color: #0F2B5B; cursor:pointer;" onclick="location.href='404.html';">Pegawai Bank Mandiri Taspen Sisihkan Gaji Untuk Bantuan Akibat Dampak Virus Covid-19</p>
+          <p class="card-text text-left" style="color: #0F2B5B; cursor:pointer;" onclick="location.href='berita-mantap-detail.php';">Pegawai Bank Mandiri Taspen Sisihkan Gaji Untuk Bantuan Akibat Dampak Virus Covid-19</p>
           </div>
         </div>
       </div>
@@ -176,7 +176,7 @@
           <img class="card-img-top" src="asset/minislide4.png" alt="Card image cap" style="height: 12rem;">
           <div class="card-body">
           <p class="card-text text-left"><small class="text-muted">Last Update : 25 Okt 2020</small></p>
-          <p class="card-text text-left" style="color: #0F2B5B; cursor:pointer;" onclick="location.href='404.html';">Badan Kepegawaian Negara Taspen dan Bank Mantap Perkuat Sinergi</p>
+          <p class="card-text text-left" style="color: #0F2B5B; cursor:pointer;" onclick="location.href='berita-mantap-detail.php';">Badan Kepegawaian Negara Taspen dan Bank Mantap Perkuat Sinergi</p>
           </div>
         </div>
       </div>
@@ -190,7 +190,7 @@
           <img class="card-img-top" src="asset/minislide1.png" alt="Card image cap" style="height: 12rem;">
           <div class="card-body">
           <p class="card-text text-left"><small class="text-muted">Last Update : 7 Des 2020</small></p>
-          <p class="card-text text-left" style="color: #0F2B5B; cursor:pointer;" onclick="location.href='404.html';">Bank Mantap Serahkan Bantuan Alat Pelindung Diri Kepada RSPI Sulianti Saroso</p>
+          <p class="card-text text-left" style="color: #0F2B5B; cursor:pointer;" onclick="location.href='berita-mantap-detail.php';">Bank Mantap Serahkan Bantuan Alat Pelindung Diri Kepada RSPI Sulianti Saroso</p>
           </div>
         </div>
       </div>
@@ -200,7 +200,7 @@
           <img class="card-img-top" src="asset/minislide2.png" alt="Card image cap" style="height: 12rem;">
           <div class="card-body">
           <p class="card-text text-left"><small class="text-muted">Last Update : 16 Nov 2020</small></p>
-          <p class="card-text text-left" style="color: #0F2B5B; cursor:pointer;" onclick="location.href='404.html';">Hadiah langsung tabungan siMantap, tentukan hadiahmu!</p>   
+          <p class="card-text text-left" style="color: #0F2B5B; cursor:pointer;" onclick="location.href='berita-mantap-detail.php';">Hadiah langsung tabungan siMantap, tentukan hadiahmu!</p>   
           </div>
         </div>
       </div>
@@ -210,7 +210,7 @@
           <img class="card-img-top" src="asset/minislide3.png" alt="Card image cap" style="height: 12rem;">
           <div class="card-body">
           <p class="card-text text-left"><small class="text-muted">Last Update : 10 Nov 2020</small></p>
-          <p class="card-text text-left" style="color: #0F2B5B; cursor:pointer;" onclick="location.href='404.html';">Pegawai Bank Mandiri Taspen Sisihkan Gaji Untuk Bantuan Akibat Dampak Virus Covid-19</p>
+          <p class="card-text text-left" style="color: #0F2B5B; cursor:pointer;" onclick="location.href='berita-mantap-detail.php';">Pegawai Bank Mandiri Taspen Sisihkan Gaji Untuk Bantuan Akibat Dampak Virus Covid-19</p>
           </div>
         </div>
       </div>
@@ -220,7 +220,7 @@
           <img class="card-img-top" src="asset/minislide4.png" alt="Card image cap" style="height: 12rem;">
           <div class="card-body">
           <p class="card-text text-left"><small class="text-muted">Last Update : 25 Okt 2020</small></p>
-          <p class="card-text text-left" style="color: #0F2B5B; cursor:pointer;" onclick="location.href='404.html';">Badan Kepegawaian Negara Taspen dan Bank Mantap Perkuat Sinergi</p>
+          <p class="card-text text-left" style="color: #0F2B5B; cursor:pointer;" onclick="location.href='berita-mantap-detail.php';">Badan Kepegawaian Negara Taspen dan Bank Mantap Perkuat Sinergi</p>
           </div>
         </div>
       </div>
@@ -337,7 +337,7 @@
 
     <!-- Video Youtube -->
     <div class="col-xs-12 col-sm-4 col-md-4">
-    <iframe width="420" height="285" border="0" style="border-radius: 20px;" frameborder="0" allowfullscreen src="https://www.youtube.com/embed/QGZeCE-3QJ0"></iframe>
+    <iframe width="420" height="285" style="border:0; border-radius: 20px;" frameborder="0" allowfullscreen src="https://www.youtube.com/embed/QGZeCE-3QJ0"></iframe>
     </div>
     <!-- / Video Youtube -->
  

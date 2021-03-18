@@ -7,7 +7,6 @@
 	opacity: 1;
 	font-size: 13px;
 	border-radius: 25px;
-	width: 179px;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 900;
 	border:none;
@@ -34,11 +33,10 @@
 <h3 class="text-center">Dapatkan informasi berita, promosi, program terbaru serta<br/> laporan keuangan dari <strong>Bank Mantap</strong></h3>
 
 <p><br/></p>
-<p><a class="btn btn-lg btn-wr" href="#" role="button">Berita Mantap</a>
-<a class="btn btn-lg btn-wr active" href="#" role="button">Promosi Mantap</a>
-<a class="btn btn-lg btn-wr" href="#" role="button">Program Mantap</a>
-<a class="btn btn-lg btn-wr" href="#" role="button">Laporan Keuangan</a></p>
-
+<p><a class="btn btn-lg btn-wr" href="berita-mantap.php" role="button">Berita Mantap</a>
+<a class="btn btn-lg btn-wr active" href="promosi-mantap.php" role="button">Promosi Mantap</a>
+<a class="btn btn-lg btn-wr" href="program-mantap.php" role="button">Program Mantap</a>
+<a class="btn btn-lg btn-wr" href="laporan-keuangan.php" role="button">Laporan Keuangan</a></p>
 </div>
 
 <div class="container text-center mt-5">
@@ -48,7 +46,7 @@
           <img class="card-img-top" src="asset/minislide2.png" alt="Card image cap"  style="height: 12rem;">
           <div class="card-body">
           <p class="card-text text-left"><small class="text-muted">16 Nov 2020</small></p>
-          <p class="card-text text-left" style="color:#0F2B5B; cursor:pointer;" onclick="location.href='404.html';">Hadiah langsung tabungan siMantap, tentukan hadiahmu!</p>   
+          <p class="card-text text-left" style="color:#0F2B5B; cursor:pointer;" onclick="location.href='berita-mantap-detail.php';">Hadiah langsung tabungan siMantap, tentukan hadiahmu!</p>   
           </div>
         </div>
 </div>
@@ -58,7 +56,7 @@
           <img class="card-img-top" src="asset/minislide2.png" alt="Card image cap"  style="height: 12rem;">
           <div class="card-body">
           <p class="card-text text-left"><small class="text-muted">16 Nov 2020</small></p>
-          <p class="card-text text-left" style="color:#0F2B5B; cursor:pointer;" onclick="location.href='404.html';">Hadiah langsung tabungan siMantap, tentukan hadiahmu!</p>   
+          <p class="card-text text-left" style="color:#0F2B5B; cursor:pointer;" onclick="location.href='berita-mantap-detail.php';">Hadiah langsung tabungan siMantap, tentukan hadiahmu!</p>   
           </div>
         </div>
 </div>
@@ -68,7 +66,7 @@
           <img class="card-img-top" src="asset/minislide2.png" alt="Card image cap"  style="height: 12rem;">
           <div class="card-body">
           <p class="card-text text-left"><small class="text-muted">16 Nov 2020</small></p>
-          <p class="card-text text-left" style="color:#0F2B5B; cursor:pointer;" onclick="location.href='404.html';">Hadiah langsung tabungan siMantap, tentukan hadiahmu!</p>   
+          <p class="card-text text-left" style="color:#0F2B5B; cursor:pointer;" onclick="location.href='berita-mantap-detail.php';">Hadiah langsung tabungan siMantap, tentukan hadiahmu!</p>   
           </div>
         </div>
 </div>
@@ -78,7 +76,7 @@
           <img class="card-img-top" src="asset/minislide2.png" alt="Card image cap"  style="height: 12rem;">
           <div class="card-body">
           <p class="card-text text-left"><small class="text-muted">16 Nov 2020</small></p>
-          <p class="card-text text-left" style="color:#0F2B5B; cursor:pointer;" onclick="location.href='404.html';">Hadiah langsung tabungan siMantap, tentukan hadiahmu!</p>   
+          <p class="card-text text-left" style="color:#0F2B5B; cursor:pointer;" onclick="location.href='berita-mantap-detail.php';">Hadiah langsung tabungan siMantap, tentukan hadiahmu!</p>   
           </div>
         </div>
 </div>
@@ -88,7 +86,7 @@
           <img class="card-img-top" src="asset/minislide2.png" alt="Card image cap"  style="height: 12rem;">
           <div class="card-body">
           <p class="card-text text-left"><small class="text-muted">16 Nov 2020</small></p>
-          <p class="card-text text-left" style="color:#0F2B5B; cursor:pointer;" onclick="location.href='404.html';">Hadiah langsung tabungan siMantap, tentukan hadiahmu!</p>   
+          <p class="card-text text-left" style="color:#0F2B5B; cursor:pointer;" onclick="location.href='berita-mantap-detail.php';">Hadiah langsung tabungan siMantap, tentukan hadiahmu!</p>   
           </div>
         </div>
 </div>
@@ -98,7 +96,7 @@
           <img class="card-img-top" src="asset/minislide2.png" alt="Card image cap"  style="height: 12rem;">
           <div class="card-body">
           <p class="card-text text-left"><small class="text-muted">16 Nov 2020</small></p>
-          <p class="card-text text-left" style="color:#0F2B5B; cursor:pointer;" onclick="location.href='404.html';">Hadiah langsung tabungan siMantap, tentukan hadiahmu!</p>   
+          <p class="card-text text-left" style="color:#0F2B5B; cursor:pointer;" onclick="location.href='berita-mantap-detail.php';">Hadiah langsung tabungan siMantap, tentukan hadiahmu!</p>   
           </div>
         </div>
 </div>
@@ -108,18 +106,7 @@
           <img class="card-img-top" src="asset/minislide2.png" alt="Card image cap"  style="height: 12rem;">
           <div class="card-body">
           <p class="card-text text-left"><small class="text-muted">Last Update : 16 Nov 2020</small></p>
-          <p class="card-text text-left" style="color:#0F2B5B; cursor:pointer;" onclick="location.href='404.html';">Hadiah langsung tabungan siMantap, tentukan hadiahmu!</p>   
-          </div>
-        </div>
-</div>
-
-
-<div class="col-sm-3 mb-5">
-        <div class="card mb-2" style="height: 23rem; box-shadow: 0px 20px 40px #75B2DD1A;border-radius: 12px 12px 0px 0px; opacity: 1;">
-          <img class="card-img-top" src="asset/minislide2.png" alt="Card image cap"  style="height: 12rem;">
-          <div class="card-body">
-          <p class="card-text text-left"><small class="text-muted">Last Update : 16 Nov 2020</small></p>
-          <p class="card-text text-left" style="color:#0F2B5B; cursor:pointer;" onclick="location.href='404.html';">Hadiah langsung tabungan siMantap, tentukan hadiahmu!</p>   
+          <p class="card-text text-left" style="color:#0F2B5B; cursor:pointer;" onclick="location.href='berita-mantap-detail.php';">Hadiah langsung tabungan siMantap, tentukan hadiahmu!</p>   
           </div>
         </div>
 </div>
@@ -130,7 +117,18 @@
           <img class="card-img-top" src="asset/minislide2.png" alt="Card image cap"  style="height: 12rem;">
           <div class="card-body">
           <p class="card-text text-left"><small class="text-muted">Last Update : 16 Nov 2020</small></p>
-          <p class="card-text text-left" style="color:#0F2B5B; cursor:pointer;" onclick="location.href='404.html';">Hadiah langsung tabungan siMantap, tentukan hadiahmu!</p>   
+          <p class="card-text text-left" style="color:#0F2B5B; cursor:pointer;" onclick="location.href='berita-mantap-detail.php';">Hadiah langsung tabungan siMantap, tentukan hadiahmu!</p>   
+          </div>
+        </div>
+</div>
+
+
+<div class="col-sm-3 mb-5">
+        <div class="card mb-2" style="height: 23rem; box-shadow: 0px 20px 40px #75B2DD1A;border-radius: 12px 12px 0px 0px; opacity: 1;">
+          <img class="card-img-top" src="asset/minislide2.png" alt="Card image cap"  style="height: 12rem;">
+          <div class="card-body">
+          <p class="card-text text-left"><small class="text-muted">Last Update : 16 Nov 2020</small></p>
+          <p class="card-text text-left" style="color:#0F2B5B; cursor:pointer;" onclick="location.href='berita-mantap-detail.php';">Hadiah langsung tabungan siMantap, tentukan hadiahmu!</p>   
           </div>
         </div>
 </div>
@@ -140,7 +138,7 @@
           <img class="card-img-top" src="asset/minislide2.png" alt="Card image cap"  style="height: 12rem;">
           <div class="card-body">
           <p class="card-text text-left"><small class="text-muted">Last Update : 16 Nov 2020</small></p>
-          <p class="card-text text-left" style="color:#0F2B5B; cursor:pointer;" onclick="location.href='404.html';">Hadiah langsung tabungan siMantap, tentukan hadiahmu!</p>   
+          <p class="card-text text-left" style="color:#0F2B5B; cursor:pointer;" onclick="location.href='berita-mantap-detail.php';">Hadiah langsung tabungan siMantap, tentukan hadiahmu!</p>   
           </div>
         </div>
 </div>
@@ -150,7 +148,7 @@
           <img class="card-img-top" src="asset/minislide2.png" alt="Card image cap"  style="height: 12rem;">
           <div class="card-body">
           <p class="card-text text-left"><small class="text-muted">Last Update : 16 Nov 2020</small></p>
-          <p class="card-text text-left" style="color:#0F2B5B; cursor:pointer;" onclick="location.href='404.html';">Hadiah langsung tabungan siMantap, tentukan hadiahmu!</p>   
+          <p class="card-text text-left" style="color:#0F2B5B; cursor:pointer;" onclick="location.href='berita-mantap-detail.php';">Hadiah langsung tabungan siMantap, tentukan hadiahmu!</p>   
           </div>
         </div>
 </div>
@@ -160,7 +158,7 @@
           <img class="card-img-top" src="asset/minislide2.png" alt="Card image cap"  style="height: 12rem;">
           <div class="card-body">
           <p class="card-text text-left"><small class="text-muted">Last Update : 16 Nov 2020</small></p>
-          <p class="card-text text-left" style="color:#0F2B5B; cursor:pointer;" onclick="location.href='404.html';">Hadiah langsung tabungan siMantap, tentukan hadiahmu!</p>   
+          <p class="card-text text-left" style="color:#0F2B5B; cursor:pointer;" onclick="location.href='berita-mantap-detail.php';">Hadiah langsung tabungan siMantap, tentukan hadiahmu!</p>   
           </div>
         </div>
 </div>
