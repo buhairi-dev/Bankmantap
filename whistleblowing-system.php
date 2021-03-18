@@ -1,5 +1,33 @@
 <?php include 'layout/header.php';?>
- 
+<style>
+table {
+  margin-bottom:5%;
+  width: 70%;
+  font-size:12px;
+  box-shadow: 0px 20px 40px #00000014;
+  border-color:red;
+}
+
+th {
+  height: 60px;
+  color: #121212;
+}
+td {
+  text-align: left;
+  height: 40px;
+  width:2px;
+  color: #121212;;
+}
+tr:nth-child(even){
+    background-color: #FCD1161A;
+}
+
+th {
+  background-color: #FCD116;
+  color: #0F2B5B;
+}
+
+</style>
 
 <section id="img-header" class="img-header">
 <img src="asset/slider9.png">
@@ -33,6 +61,40 @@
 <h5>Fraud</h5>
 <p><small>Tindakan penyimpangan atau pembiaran yang sengaja dilakukan untuk mengelabui, menipu atau memanipulasi Bank, nasabah, atau pihak lain yang terjadi di lingkungan Bank dan/atau menggunakan sarana Bank sehingga mengakibatkan Bank, nasabah, atau pihak lain menderita kerugian dan/atau pelaku fraud memperoleh keuntungan keuangan baik secara langsung maupun tidak langsung.</small></p>
  
+<table>
+<thead>
+  <tr>
+  <th class="pl-4" style="border-radius: 16px 16px 0px 0px;" colspan="2">Jenis-jenis perbuatan yang tergolong fraud adalah</th>
+  </tr>
+</thead>
+
+<tbody>
+  <tr>
+    <td class="text-right" style="width:5%;">1.</td>
+    <td>Kecurangan</td>
+  </tr>
+  <tr>
+    <td class="text-right">2.</td>
+    <td style=>Penipuan</td>
+  </tr>
+  <tr>
+    <td  class="text-right">3.</td>
+    <td>Pengelapan Aset</td>
+  </tr>
+  
+  <tr>
+    <td  class="text-right">4.</td>
+    <td>Pembocoran Informasi</td>
+  </tr>
+  
+  <tr>
+    <td  class="text-right">5.</td>
+    <td>Tindak pidana perbankan (tipibank) dan tindakan-tindakan lainnya yang dapat dipersamakan dengan itu (SP strategi Anti Fraud)</td>
+  </tr>
+</tbody>
+
+</table>
+
 
 <h5>Kode etik</h5>
 <p><small>Perilaku jajaran Bank yang tidak sesuai dengan budaya perusahaan yang telah dirumuskan untuk mencapai visi dan misi Bank.</small></p>
@@ -95,7 +157,7 @@
           </div>
           <div class="mb-3">
             <label class="form-label">Jabatan Terlapor*</label>
-            <input type="text" class="form-control" placeholder="jabatan terlapor" required>
+            <input type="text" class="form-control" placeholder="Jabatan terlapor" required>
           </div>
           <div class="mb-3">
             <label class="form-label">Waktu Kejadian (tanggal dan periode)*</label>
@@ -103,7 +165,7 @@
           </div>
           <div class="mb-3">
             <label class="form-label">Lokasi Kejadian*</label>
-            <input type="text" class="form-control" placeholder="Contoh: 5-20 januari 2018 atau selama bulan December di tahin 2018" required>
+            <input type="text" class="form-control" placeholder="Contoh: Sekitar bundaran HI Jakarta" required>
           </div>
           <div class="mb-3">
             <label class="form-label">Kronologis Kejadian*</label>
