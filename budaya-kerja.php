@@ -1,6 +1,5 @@
 <?php include 'layout/header.php';?>
  
-
 <section id="img-header" class="img-header">
 <img src="asset/slider7.png">
 <ul class="breadcrumb">
@@ -21,20 +20,19 @@
         
         <table class="mt-3" style="font-size:13px;">
             <tr>
-                <td style="color:#0F2B5B; font: normal normal bold 14px/24px Roboto;">Tangguh</td>
+                <td style="color:#0F2B5B; font: bold 14px Roboto;">Tangguh</td>
                 <td>: Pantang Menyerah, Adaptif dan Pembelajar</td>
-            
             </tr>
             <tr>
-                <td style="color:#0F2B5B; font: normal normal bold 14px/24px Roboto;">Optimal</td>
+                <td style="color:#0F2B5B; font: bold 14px Roboto;"">Optimal</td>
                 <td>: Memberi hasil yang terbaik</td>
             </tr>
             <tr>
-                <td style="color:#0F2B5B; font: normal normal bold 14px/24px Roboto;">Profesional</td>
+                <td style="color:#0F2B5B; font: bold 14px Roboto;"">Profesional</td>
                 <td>: Kompeten dan dapat dipercaya</td>
             </tr>
             <tr>
-                <td style="color:#0F2B5B; font: normal normal bold 14px/24px Roboto;">Peduli</td>
+                <td style="color:#0F2B5B; font: bold 14px Roboto;"">Peduli</td>
                 <td>: Melayani dengan hati</td>
             </tr>
         </table>

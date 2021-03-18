@@ -154,4 +154,5 @@ tr .footer{
             </ul>
           </nav>
 </div>
+<br/><br/><br/>
 <?php include 'layout/footer.php';?>
