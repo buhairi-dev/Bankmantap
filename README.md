@@ -1,5 +1,5 @@
 # Bankmantap
-This Repository for development Landing Page bank mandiri taspen
+This Repository for Redesign Landing Page bank mandiri taspen
 
 ## Web Component
 <img src="asset/tools.png"/>
