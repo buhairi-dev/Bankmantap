@@ -48,7 +48,7 @@
           <img class="card-img-top" src="asset/minislide2.png" alt="Card image cap"  style="height: 12rem;">
           <div class="card-body">
           <p class="card-text text-left"><small class="text-muted">16 Nov 2020</small></p>
-          <p class="card-text text-left" style="color:#0F2B5B; cursor:pointer;" onclick="location.href='404.html';">Hadiah langsung tabungan siMantap, tentukan hadiahmu!</p>   
+          <p class="card-text text-left" style="color:#0F2B5B; cursor:pointer;" onclick="location.href='berita-mantap-detail.php';">Hadiah langsung tabungan siMantap, tentukan hadiahmu!</p>   
           </div>
         </div>
 </div>

@@ -371,6 +371,30 @@ a:hover{
 	box-shadow: 0 8px 10px 0 rgba(0,0,0,0.24), 0 14px 40px 0 rgba(0,0,0,0.15);
 }
 
+
+.btn-share{
+	background-color: #0F2B5B;
+    color:#FFF;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	border-radius: 25px;
+    width: 160px;
+    padding: 0px;
+}
+
+.btn-share:hover{
+   background-color: #FFF;
+   color:black;
+   font-family: 'Roboto', sans-serif;
+   font-size: 14px;
+   font-weight: 900;
+   border-radius: 25px;
+   width: 165px;
+   box-shadow: 0 8px 10px 0 rgba(0,0,0,0.24), 0 14px 40px 0 rgba(0,0,0,0.15);
+}
+
+
+
 .btn-unduh{
 	font-family: 'Roboto', sans-serif;
 	font-weight: bold;
