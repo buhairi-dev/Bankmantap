@@ -55,7 +55,7 @@ background-color:red;
 
 
 
-<div class="text-center"><a class="btn btn-simulasi-flat" role="button" href="#">HITUNG SIMULASI</a> </div>
+<div class="text-center"><a class="btn btn-simulasi-flat" role="button" href="simulasi-tabungan-berjangka-hasil.php">HITUNG SIMULASI</a> </div>
 </div>
 </div>
      
