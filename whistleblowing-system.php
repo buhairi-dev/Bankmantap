@@ -53,7 +53,7 @@
         <div class="card card-body mb-5 mt-5">
         <h4 class="text-center mb-3 mt-3">Formulir Pelaporan Whistleblowing System Bank Mantap</h5>
         <div class="container" style="padding: 6px 5%;">
-        <form>
+        <form action="whistleblowing-system.php" method="post">
           <div class="mb-3">
             <label class="form-label">Nama Pelapor*</label>
             <input type="text" class="form-control" placeholder="Nama lengkap pelapor" required>
