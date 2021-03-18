@@ -37,9 +37,9 @@
        <div class="col-xs-12 col-sm-2 col-sm-2">
           <h5>SIMPANAN</h5>
           <ul class="list-unstyled quick-links">
-            <li><a href="#">Tabunganku</a></li>
+            <li><a href="#">Simpanan Tabunganku</a></li>
             <li><a href="#">Tabungan Simantap Berjangka </a></li>
-            <li><a href="#">Tabungan Simantap Gold </a></li>
+            <li><a href="#">Tabungan Simantap</a></li>
             <li><a href="#">Tabungan Simantap Pensiun </a></li>
             <li><a href="#">Deposito Mantap</a></li>
             <li><a href="#">Giro</a></li>
@@ -185,7 +185,7 @@
         </a>    
       </li>
       <li>
-        <a data-toggle="modal" data-target="#ModalShare" data-whatever="share" href="#">
+        <a href="kantor-cabang.php">
           <span class="text">location</span>
           <img style="width: 30px;" src="asset/icon/maps.png">
         </a>    
@@ -216,6 +216,120 @@
 <!--  ================================================ END MILEA ============================================================== -->
 
 
+
+
+<!-- Modal Email -->
+
+<div class="modal fade bs-example-modal-lg" id="ModalEmail" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+      <div style="text-align: right;    width: 103%;">
+        <a data-dismiss="modal" href="#" id="x"><i class="fa fa-times-circle-o fa-3x" aria-hidden="true" style="color: #b6b7ba;"></i></a>
+      </div>
+    <div class="modal-content" style="background-color: transparent; box-shadow: none; border: none;" >
+      <div class="modal-body"  >
+      <div class="container-fluid" >
+        <div class="row">
+
+          <div class="col-xs-6 col-md-6 hilang" style="padding-left: 4px; padding-right: 0;" >
+            <img style="width: 100%" src="asset/modal_backg.png">
+          </div>
+          <div class="col-xs-12 col-md-6" style="background-color: #b6b7ba;">
+            <form id="formEmailModal" action="https://www.bankmantap.co.id/email/send_email" method="POST" style="padding-top: 20px;
+              padding-right: 33px;
+              padding-bottom: 19px;" >
+              <div class="form-group">
+                
+                <input type="text" class="form-control" required="required" id="nama_cs" name="nama" placeholder="Nama">
+              </div>
+              <div class="form-group">   
+                <input type="text" class="form-control" required="required" id="email_cs" name="email" placeholder="Email">
+              </div>
+              <div class="form-group">   
+                <input type="text" class="form-control" required="required" id="telp_cs" name="telp" placeholder="Telp">
+              </div>
+              <div class="form-group">   
+                <textarea rows="5" class="form-control" required="required" id="pesan_cs" name="pesan" placeholder="Pesan"></textarea>
+              </div>
+              <div class="g-recaptcha" data-sitekey="6Lczr3AUAAAAAAMpepL92q3HfgESp_ncdzlUPV66"></div> 
+              <br>
+              <button type="button" class="btn btn-warning" onclick="validateModal()" style="background-color: #fcd10d;    border-radius: 5px;" >Kirim Pesan</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+      
+</div>
+
+
+<!-- Modal Phone -->
+<div class="modal fade" id="ModalPhone" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+      <div style="text-align: right;">
+        <a data-dismiss="modal" href="#" id="x"><i class="fa fa-times-circle-o fa-3x" aria-hidden="true" style="color: #1a3562;"></i></a>
+      </div>
+    <div class="modal-content" style="background-color: transparent; box-shadow: none; border: none;" >
+      <a href="tel:14024"><img src="asset/call_po.png" style="width: 100%;" ></a>
+    </div>
+  </div>
+</div>
+
+
+<!-- Modal Share -->
+<div class="modal fade bs-example-modal-lg" id="ModalShare" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div style="text-align: right;">
+      <a data-dismiss="modal" href="#" id="x"><i class="fa fa-times-circle-o fa-3x" aria-hidden="true" style="color: #b6b7ba;"></i></a>
+    </div>
+    <div class="modal-content" style="background-color: transparent; box-shadow: none; border: none;" >
+      <div class="modal-body">
+        <div class="row" style="    position: absolute;
+    bottom: 40%;" >
+          <div class="col-xs-1 col-md-3"></div>
+          <div class="col-xs-10 col-md-6">
+            <div class="row">
+              <div class="col-xs-1 col-md-1">
+              </div>
+              <div class="col-xs-2 col-md-2">
+                <a href="https://www.facebook.com/BankMandiriTaspen" >
+                  <img id="f-s" src="asset/icon/fb_yellow.png" style="width: 100%;" >
+                </a>
+              </div>
+              <div class="col-xs-2 col-md-2">
+                <a href="https://twitter.com/BankMantap_id" >
+                  <img id="t-s" src="asset/icon/tw_yellow.png" style="width: 100%;" >
+                </a>
+              </div>
+              <div class="col-xs-2 col-md-2">
+                <a href="https://www.instagram.com/bankmantap_id/" >
+                  <img id="i-s" src="asset/icon/insta_yellow.png" style="width: 100%;" >
+                </a>
+              </div>
+              <div class="col-xs-2 col-md-2">
+                <a href="https://plus.google.com/u/0/112849376688825884019" >
+                  <img id="g-s" src="asset/icon/gplus_yellow.png" style="width: 100%;" >
+                </a>
+              </div>
+              <div class="col-xs-2 col-md-2">
+                <a href="https://www.youtube.com/channel/UCtV1KsHbxe2bbP3MA-eYfJA/featured?view_as=subscriber" >
+                  <img id="y-s" src="asset/icon/yt_yellow.png" style="width: 100%;" >
+                </a>
+              </div>
+              
+            </div>
+          </div>
+          <div class="col-xs-1 col-md-3"></div>
+        </div>
+        
+        <img style="width: 100%" src="asset/sosmed.png">
+      </div>
+    </div>
+  </div>
+</div>
+
+
 <!-- Start Scrolling -->
 <button onclick="topFunction()" id="onTop" title="Go to top" class="fa fa-angle-double-up"></button>
 <!-- End Scrolling -->
@@ -227,6 +341,92 @@
  
 </body>
 </html>
+
+
+<!-- SCRIPT VALIDATION MODAL SEND EMAIL -->
+
+<script type="text/javascript">
+  function validateModal(){
+    var bValidName = check_validation("#nama_cs");
+    var bValidEmail = check_validation_email("#email_cs");
+    var bValidTelp = check_validation("#telp_cs");
+    var bValidDigit = check_validation_modal_phone("#telp_cs");
+    var bValidMessage = check_validation("#pesan_cs");
+
+
+    if(bValidName && bValidEmail && bValidTelp && bValidDigit && bValidMessage){
+      submit_form();
+    }
+  }
+
+  function submit_form(){
+    $('#formEmailModal').submit();
+  }
+
+  function check_validation_modal_phone(id){
+    var number = $(id).val();
+    if(isNaN(number)){
+      $(id).attr("placeholder", "Input harus berupa angka");
+
+      return false;
+    }
+    else{
+      if(number.length < 10 || number.length > 13){
+        //alert(number.length);
+        $(id).val("");
+        $(id).attr("placeholder", "Input harus 10 - 13 digit");
+
+        return false;
+      }
+      else{
+        return true;
+      }
+    }
+  }
+
+  function check_validation(id){
+    var nama_pel = $(id).val();
+    if(nama_pel == "")
+    {
+      $(id).attr("placeholder", "Wajib diisi");
+
+      return false;
+    }
+    else{
+      return true;
+    }
+  }
+
+  function check_validation_email(id){
+    var value = $(id).val();
+
+    if(value == "")
+    {
+      $(id).attr("placeholder", "Wajib diisi");
+
+      return false;
+    }
+    else
+    {
+      if (!validateEmail(value)) {
+        $(id).val("");
+        $(id).attr("placeholder", "Format email salah");
+
+        return false;
+      }
+      else{
+        return true;
+      }
+    }            
+  }
+
+  function validateEmail(email) {
+    var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return re.test(email);
+  }
+
+</script>
+
 
 <script>
 //Get the button
