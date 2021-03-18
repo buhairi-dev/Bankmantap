@@ -36,7 +36,7 @@
 </div>
 
 <div class="col-sm-12 mt-5 ml-5">
-<p class="text-center"><a class="btn btn-lg btn-share" href="index.php" role="button"><span class="fa fa-share-alt"></span> Bagikan</a></p>
+<p class="text-center"><a class="btn btn-lg btn-share" data-toggle="modal" data-target="#ModalShare" data-whatever="share" href="#" role="button"><span class="fa fa-share-alt"></span> Bagikan</a></p>
 </div>
 </div>
 
