@@ -55,19 +55,19 @@
         <div class="container" style="padding: 6px 5%;">
         <form>
           <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Nama Pelapor*</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Nama lengkap pelapor" aria-describedby="emailHelp">
+            <label class="form-label">Nama Pelapor*</label>
+            <input type="text" class="form-control" placeholder="Nama lengkap pelapor">
           </div>
           <div class="mb-3">
             <label for="exampleInputPassword1" class="form-label">Nomor Telepon*</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Nomor telepon hp, rumah tau kantor">
+            <input type="password" class="form-control" placeholder="Nomor telepon hp, rumah tau kantor">
           </div>
           <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Email*</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Misal: joko@gmail.com">
+            <label class="form-label">Email*</label>
+            <input type="email" class="form-control" placeholder="Misal: joko@gmail.com">
           </div>
           <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Tindakan/Perbuatan yang dilaporkan</label>
+            <label class="form-label">Tindakan/Perbuatan yang dilaporkan</label>
             <br>
             
             <div class="form-check form-check-inline">
@@ -91,32 +91,32 @@
           <hr>
 
           <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Nama Terlapor*</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Nama lengkap terlapor">
+            <label class="form-label">Nama Terlapor*</label>
+            <input type="text" class="form-control" placeholder="Nama lengkap terlapor">
           </div>
           <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Jabatan Terlapor*</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="jabatan terlapor">
+            <label class="form-label">Jabatan Terlapor*</label>
+            <input type="text" class="form-control" placeholder="jabatan terlapor">
           </div>
           <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Waktu Kejadian (tanggal dan periode)*</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contoh: 5-20 januari 2018 atau selama bulan December di tahin 2018">
+            <label class="form-label">Waktu Kejadian (tanggal dan periode)*</label>
+            <input type="text" class="form-control" placeholder="Contoh: 5-20 januari 2018 atau selama bulan December di tahin 2018">
           </div>
           <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Lokasi Kejadian*</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contoh: 5-20 januari 2018 atau selama bulan December di tahin 2018">
+            <label class="form-label">Lokasi Kejadian*</label>
+            <input type="text" class="form-control" placeholder="Contoh: 5-20 januari 2018 atau selama bulan December di tahin 2018">
           </div>
           <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Kronologis Kejadian*</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Ceritakan detail kejadian"></textarea>
+            <label class="form-label">Kronologis Kejadian*</label>
+            <textarea class="form-control" rows="3" placeholder="Ceritakan detail kejadian"></textarea>
           </div>
           <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Nominal*</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contoh: kurang lebih 10 juta rupiah">
+            <label class="form-label">Nominal*</label>
+            <input type="number" class="form-control" placeholder="Contoh: kurang lebih 10 juta rupiah">
           </div>
 
-           
-          <img src="asset/recaptcha.gif" width="590px">
+          
+          <img src="asset/recaptcha.gif" width="590px"> <!-- this area for google reCapthca Script -->
           <button type="submit" class="btn btn-lg btn-more">Kirim </button> 
         </form>
         </div>
