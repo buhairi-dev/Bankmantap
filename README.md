@@ -1,7 +1,7 @@
 # Bankmantap
 This Repository for development Landing Page bank mandiri taspen
 
-Component :
+Web Component :
 - Boostrap 4
 - CSS 3
 - HTML 5
