@@ -110,11 +110,10 @@
 <h3 class="text-center">Dapatkan informasi berita, promosi, program terbaru serta<br/> laporan keuangan dari <strong>Bank Mantap</strong></h3>
 
 <p><br/></p>
-<p><a class="btn btn-lg  btn-wr active" href="#" role="button">Berita Mantap</a>
-<a class="btn btn-lg  btn-wr" href="#" role="button">Promosi Mantap</a>
-<a class="btn btn-lg  btn-wr" href="#" role="button">Program Mantap</a>
-<a class="btn btn-lg  btn-wr" href="#" role="button">Laporan Keuangan</a></p>
-
+<p><a class="btn btn-lg btn-wr active" href="berita-mantap.php" role="button">Berita Mantap</a>
+<a class="btn btn-lg btn-wr" href="promosi-mantap.php" role="button">Promosi Mantap</a>
+<a class="btn btn-lg btn-wr" href="program-mantap.php" role="button">Program Mantap</a>
+<a class="btn btn-lg btn-wr" href="laporan-keuangan.php" role="button">Laporan Keuangan</a></p>
 </section>
 <!-- ==================================================  /SIMULATION ====================================================== -->
 <br/>
@@ -240,7 +239,7 @@
   
    
   <br/><br/><br/>
-  <p class="text-center"><a class="btn btn-lg btn-more" href="#" role="button">Lihat Semua Info</a></p>
+  <p class="text-center"><a class="btn btn-lg btn-more" href="berita-mantap.php" role="button">Lihat Semua Info</a></p>
   </div>
   </div>
    
@@ -344,7 +343,7 @@
     </div>
 
 
-    <p><a class="btn btn-lg btn-more" href="#" role="button">Selengkapnya tentang Bank Mantap</a></p>
+    <p><a class="btn btn-lg btn-more" href="sekilas-perusahaan.php" role="button">Selengkapnya tentang Bank Mantap</a></p>
     </div>
        
 </section>

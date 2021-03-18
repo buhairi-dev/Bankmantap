@@ -159,7 +159,7 @@
        <small class="small-footer">
          <a href="#" style="color: #808080;">Syarat Penggunaan</a> 
          <a href="#" style="color: #808080; padding-left: 5%;">Kebijakan Privasi</a> 
-         <a href="#" style="color: #808080; padding-left: 5%;">Hubungi Kami</a>
+         <a data-toggle="modal" data-target="#ModalPhone" data-whatever="phone" href="#" style="color: #808080; padding-left: 5%;">Hubungi Kami</a>
        </small>
       </div>
     </div>
