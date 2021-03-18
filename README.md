@@ -9,4 +9,4 @@ Web Component :
 
 ## ScreenShot
 
-<img src="asset/ss.png"/>
+<img src="asset/logo_mantap.png"/>
