@@ -17,7 +17,6 @@
         $namapelapor = $_POST["nama_pelapor"];
         ?>
         <h4 class="text-center mb-3 mt-3">Terimakasih <strong><?php echo $namapelapor; ?> </strong>Laporan anda sudah kami terima,<br/>akan kami proses lebih lanjut</h4>
-       
          <p class="text-center"><a class="btn btn-lg btn-more" href="index.php" role="button"> Kembali Ke Beranda</a></p>
          
 </div>

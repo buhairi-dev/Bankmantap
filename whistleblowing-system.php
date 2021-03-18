@@ -48,7 +48,6 @@
 <h5>Kirimkan laporan WBS Anda melalui e-Form di bawah ini.</h5>
 <p><small>Terima kasih atas kepedulian dan kepercayaan Anda kepada kami.</small></p>
 <p><small>Salam</small></p>
-
  
         <div class="card card-body mb-5 mt-5">
         <h4 class="text-center mb-3 mt-3">Formulir Pelaporan Whistleblowing System Bank Mantap</h5>
