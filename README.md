@@ -9,4 +9,4 @@ Web Component :
 
 ## ScreenShot
 
-<img src="asset/Beranda.png"/>
+<img src="asset/ss.png"/>
