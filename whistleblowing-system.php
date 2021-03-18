@@ -56,15 +56,15 @@
         <form>
           <div class="mb-3">
             <label class="form-label">Nama Pelapor*</label>
-            <input type="text" class="form-control" placeholder="Nama lengkap pelapor">
+            <input type="text" class="form-control" placeholder="Nama lengkap pelapor" required>
           </div>
           <div class="mb-3">
             <label for="exampleInputPassword1" class="form-label">Nomor Telepon*</label>
-            <input type="password" class="form-control" placeholder="Nomor telepon hp, rumah tau kantor">
+            <input type="password" class="form-control" placeholder="Nomor telepon hp, rumah tau kantor" required>
           </div>
           <div class="mb-3">
             <label class="form-label">Email*</label>
-            <input type="email" class="form-control" placeholder="Misal: joko@gmail.com">
+            <input type="email" class="form-control" placeholder="Misal: joko@gmail.com" required>
           </div>
           <div class="mb-3">
             <label class="form-label">Tindakan/Perbuatan yang dilaporkan</label>
@@ -92,27 +92,27 @@
 
           <div class="mb-3">
             <label class="form-label">Nama Terlapor*</label>
-            <input type="text" class="form-control" placeholder="Nama lengkap terlapor">
+            <input type="text" class="form-control" placeholder="Nama lengkap terlapor" required>
           </div>
           <div class="mb-3">
             <label class="form-label">Jabatan Terlapor*</label>
-            <input type="text" class="form-control" placeholder="jabatan terlapor">
+            <input type="text" class="form-control" placeholder="jabatan terlapor" required>
           </div>
           <div class="mb-3">
             <label class="form-label">Waktu Kejadian (tanggal dan periode)*</label>
-            <input type="text" class="form-control" placeholder="Contoh: 5-20 januari 2018 atau selama bulan December di tahin 2018">
+            <input type="text" class="form-control" placeholder="Contoh: 5-20 januari 2018 atau selama bulan December di tahin 2018" required>
           </div>
           <div class="mb-3">
             <label class="form-label">Lokasi Kejadian*</label>
-            <input type="text" class="form-control" placeholder="Contoh: 5-20 januari 2018 atau selama bulan December di tahin 2018">
+            <input type="text" class="form-control" placeholder="Contoh: 5-20 januari 2018 atau selama bulan December di tahin 2018" required>
           </div>
           <div class="mb-3">
             <label class="form-label">Kronologis Kejadian*</label>
-            <textarea class="form-control" rows="3" placeholder="Ceritakan detail kejadian"></textarea>
+            <textarea class="form-control" rows="3" placeholder="Ceritakan detail kejadian" required></textarea>
           </div>
           <div class="mb-3">
             <label class="form-label">Nominal*</label>
-            <input type="number" class="form-control" placeholder="Contoh: kurang lebih 10 juta rupiah">
+            <input type="number" class="form-control" placeholder="Contoh: kurang lebih 10 juta rupiah" required>
           </div>
 
           
