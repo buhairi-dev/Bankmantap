@@ -90,3 +90,124 @@ td {
 <br/>
   
 <?php include 'layout/footer.php';?>
+
+
+<!-- script hitung simulasi pada form 
+
+<script>
+  var bSetor = false;
+  var bWaktu = false;
+  $(document).ready(function(){
+      $('#setor').maskMoney({thousands:'.', decimal:',', precision:0});
+      $('#less').hide();
+      $('#more').hide();
+      $('#lesss').hide();
+      $('#moree').hide();
+
+      $('#hasil').hide();
+
+      $('#btnHitung').prop('disabled', true);
+  });
+
+  function findAndReplace(string, target, replacement) { 
+   var i = 0, length = string.length;   
+   for (i; i < length; i++) {   
+     string = string.replace(target, replacement);   
+   }   
+   return string;  
+  }
+
+  function updateSetor(input) {
+    var str = input.value;
+    var strr=findAndReplace(str,".","");
+
+    if (parseInt(strr) <100000) {
+        $('#lesss').show();
+        window.bSetor = false;
+    } else if(parseInt(strr) > 5000000){
+        $('#moree').show();
+        window.bSetor = false;
+    }else{
+        $('#lesss').hide();
+        $('#moree').hide();
+        window.bSetor = true;
+    }
+  }
+
+  function updateWaktu(input) {
+    if (input.value <12) {
+        $('#less').show();
+        window.bWaktu = false;
+    } else if(input.value > 240){
+        $('#more').show();
+        window.bWaktu = false;
+    }else{
+        $('#less').hide();
+        $('#more').hide();
+        window.bWaktu = true;
+    }
+  }
+
+  function toRp(angka){
+    var rev     = parseInt(angka, 10).toString().split('').reverse().join('');
+    var rev2    = '';
+    for(var i = 0; i < rev.length; i++){
+        rev2  += rev[i];
+        if((i + 1) % 3 === 0 && i !== (rev.length - 1)){
+            rev2 += '.';
+        }
+    }
+    return 'Rp. ' + rev2.split('').reverse().join('') + ',00';
+  }
+
+  function checkInput(){
+    var bln=findAndReplace($('#setor').val(),".","");    
+    var setoran_bulanan = parseInt(bln);
+    var jangka_waktu = $('#waktu').val();
+
+    console.log(window.bWaktu);
+    console.log(window.bSetor);
+    if(setoran_bulanan > 0 && jangka_waktu > 0 && window.bSetor && window.bWaktu){
+        $('#btnHitung').prop('disabled', false);
+    }else{
+        $('#btnHitung').prop('disabled', true);
+    }
+  }
+
+  function hitung(){
+    var bln=findAndReplace($('#setor').val(),".","");    
+    var setoran_bulanan = parseInt(bln);
+    var jangka_waktu = $('#waktu').val();
+    var bunga_thn = ($('#bunga').val()+"."+$('#bungaa').val())/100;
+    var bunga_bln = bunga_thn/12;
+    var bunga = setoran_bulanan * bunga_bln;
+    var total_dana = setoran_bulanan + bunga;
+
+    for (var i = 1; i < jangka_waktu; i++) {
+      var ul = total_dana + setoran_bulanan;
+      bunga = ul * bunga_bln;
+      total_dana = ul +bunga;
+
+
+      console.log("no = "+(i+1));
+      console.log("setoran = "+ul);
+      console.log("bunga = "+bunga);
+      console.log("total = " + total_dana);
+    }
+    
+
+    $('#input').hide();
+    $('#hasil').show();
+
+    $('#hasil_setor').text(toRp(Math.round(setoran_bulanan)));
+    $('#hasil_bunga').text(toRp(Math.round(bunga)));
+    $('#hasil_waktu').text(jangka_waktu + " Bulan");
+    $('#hasil_total').text(toRp(Math.round(total_dana)));
+  }
+</script><style>
+  w{
+    color: white;  
+  }  
+</style> 
+
+end script -->
