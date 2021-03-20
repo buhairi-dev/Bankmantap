@@ -7,7 +7,7 @@
 <div class="container">
   <li><a href="#">Home</a></li>
   <li>Simulasi</li>
-  <li>Tabungan Berjangka</li>
+  <li>Tabungan Kredit Pensiun</li>
 </div>
 
 </ul>
@@ -19,7 +19,7 @@
 <div class="container">
 <div class="row">
   <div class="col-sm-6 text-left">
-  <h4><strong>Simulasi Tabungan Berjangka</strong></h4>
+  <h4><strong>Simulasi Kredit Pensiun</strong></h4>
   </div>
   
   <div class="col-sm-5 text-center">

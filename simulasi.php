@@ -42,7 +42,7 @@
       <img src="asset/img-simulasi02.png" style="width: auto" class="card-img-top mb-4" alt="Image Simulasi"/>
 		  <h4><img src="asset/icon/calculator.png"  alt="Logo" width="10%">&nbsp;&nbsp;Simulasi Deposito</h4>
 		  <p class="card-text">Untuk memastikan hang Anda diinvestasikan ditempat<br/>yang aman dan terpercaya sekaligus menguntungkan</p>
-		  <a class="btn btn-simulasi-flat" role="button" href="simulasi-tabungan-berjangka.php">HITUNG SIMULASI</a> 
+		  <a class="btn btn-simulasi-flat" role="button" href="simulasi-deposito.php">HITUNG SIMULASI</a> 
 		  </div>
 		</div>
     </div>
@@ -57,7 +57,7 @@
       <img src="asset/img-simulasi03.png" style="width: auto" class="card-img-top mb-4" alt="Image Simulasi"/>
 		  <h4><img src="asset/icon/calculator.png"  alt="Logo" width="10%"> Simulasi kredit Serbaguna Mikro</h4>
 		  <p class="card-text">Penyediaan dana yang diberikan kepada pengusaha perorangan/badan usaha</p>
-		  <a class="btn btn-simulasi-flat" role="button" href="simulasi-tabungan-berjangka.php">HITUNG SIMULASI</a> 
+		  <a class="btn btn-simulasi-flat" role="button" href="simulasi-tabungan-serbaguna-mikro.php">HITUNG SIMULASI</a> 
 		  </div>
 		</div>
 		</div>
@@ -70,7 +70,7 @@
       <img src="asset/img-simulasi04.png" style="width: 98%;" class="card-img-top mb-4" alt="Image Simulasi"/>
 		  <h4><img src="asset/icon/calculator.png"  alt="Logo" width="10%"> Simulasi Kredit Pensiun</h4>
 		  <p class="card-text">Manfaat kesempatan untuk terus berkarya dan mewujudkan rencana Anda setelah pension</p>
-		  <a class="btn btn-simulasi-flat" role="button" href="#">HITUNG SIMULASI</a> 
+		  <a class="btn btn-simulasi-flat" role="button" href="simulasi-kredit-pensiun.php">HITUNG SIMULASI</a> 
 		  </div>
 		</div>
     </div>

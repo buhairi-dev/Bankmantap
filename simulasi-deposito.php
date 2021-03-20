@@ -7,7 +7,7 @@
 <div class="container">
   <li><a href="#">Home</a></li>
   <li>Simulasi</li>
-  <li>Tabungan Berjangka</li>
+  <li>Deposito</li>
 </div>
 
 </ul>
@@ -19,7 +19,7 @@
 <div class="container">
 <div class="row">
   <div class="col-sm-6 text-left">
-  <h4><strong>Simulasi Tabungan Berjangka</strong></h4>
+  <h4><strong>Simulasi Deposito</strong></h4>
   </div>
   
   <div class="col-sm-5 text-center">
@@ -39,7 +39,9 @@
   </div>
 </div>
 
- 
+
+
+
 <style>
 input[type=text] {
 background: #FFFFFF 0% 0% no-repeat padding-box;
