@@ -29,7 +29,7 @@ td {
 <div class="container">
   <li><a href="#">Home</a></li>
   <li>Simulasi</li>
-  <li>Kredit Pensiun</li>
+  <li>Kredit Serbaguna Mikro</li>
 </div>
 
 </ul>
@@ -40,7 +40,7 @@ td {
 <div class="container" id="input">
 <div class="row">
   <div class="col-sm-6 text-left">
-  <h4><strong>Simulasi Kredit Pensiun</strong></h4>
+  <h4><strong>Simulasi Kredit Serbaguna Mikro</strong></h4>
   </div>
   
   <div class="col-sm-5 text-center">
@@ -97,7 +97,7 @@ td {
         <div class="col-sm-5 input-group">
         <input type="text" class="form-control" id="bunga" disabled value="9" style="background-color:#FFF;">
         <span class="input-group-text" style="border-radius: 0px 0px 0px 0px; width:50px; background-color:#FFF;">,</span>
-        <input type="text" class="form-control"  id="bungaa" disabled value="6"  style="background-color:#FFF;">
+        <input type="text" class="form-control"  id="bungaa" disabled value="0"  style="background-color:#FFF;">
         <span class="input-group-text"  style="border-radius: 0px 12px 12px 0px;"><b style="">% Pertahun</b></span>
         </div>
     </div>
@@ -120,7 +120,7 @@ td {
 
 <div class="container" id="hasil">
  
-<h4><strong>Hasil Perhitungan Simulasi Kredit Pensiun</strong></h4>
+<h4><strong>Hasil Perhitungan Simulasi Kredit Serbaguna Mikro</strong></h4>
  
 <div class="col-sm-11 mt-5">
 <div class="card card-body mb-5 col-sm-10" style="box-shadow: 0px 20px 40px #75B2DD1A; border: 1px solid #D0D8E6; border-radius: 12px;">
@@ -202,8 +202,8 @@ td {
     var strr=findAndReplace(str,".","");
 
     if (parseInt(strr) <5000000) {
-        $('#lesss').show();
-        window.bSetor = false;    
+        $('#lesss').show(); 
+        window.bSetor = false;       
     } else if(parseInt(strr) > 350000000){
         $('#moree').show();
         window.bSetor = false;
@@ -228,14 +228,14 @@ td {
     }
 
     if(input.value > 24 && input.value <=120){
-      $('#bunga').attr('value',11);
-      $('#bungaa').attr('value',88);
+      $('#bunga').attr('value',10);
+      $('#bungaa').attr('value',2);
     }else if(input.value > 120 && input.value <=180){
-      $('#bunga').attr('value',11);
-      $('#bungaa').attr('value',88);
+      $('#bunga').attr('value',10);
+      $('#bungaa').attr('value',56);
     }else{
       $('#bunga').attr('value',9);
-      $('#bungaa').attr('value',6);
+      $('#bungaa').attr('value',0);
     }
   }
 
@@ -262,8 +262,8 @@ td {
         $('#btnHitung').prop('disabled', true);
     }
   }
-
-  function hitung(){        
+  
+  function hitung(){
     var bln=findAndReplace($('#setor').val(),".","");    
     var setoran_bulanan = parseInt(bln);
     var jangka_waktu = $('#waktu').val();
@@ -272,14 +272,14 @@ td {
     var bunga = setoran_bulanan * bunga_bln;    
     var angsuran_pokok = setoran_bulanan/jangka_waktu;
     var total_angsuran_bulan = angsuran_pokok + bunga;
-    
+
     // for (var i = 1; i < jangka_waktu; i++) {
     //   var ul = total_dana + setoran_bulanan;
     //   bunga = ul * bunga_bln;
     //   total_dana = ul +bunga;
 
 
-      // console.log(isChecked);
+    //   console.log("no = "+(i+1));
     //   console.log("setoran = "+ul);
     //   console.log("bunga = "+bunga);
     //   console.log("total = " + total_dana);

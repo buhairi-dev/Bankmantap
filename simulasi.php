@@ -57,7 +57,7 @@
       <img src="asset/img-simulasi03.png" style="width: auto" class="card-img-top mb-4" alt="Image Simulasi"/>
 		  <h4><img src="asset/icon/calculator.png"  alt="Logo" width="10%"> Simulasi kredit Serbaguna Mikro</h4>
 		  <p class="card-text">Penyediaan dana yang diberikan kepada pengusaha perorangan/badan usaha</p>
-		  <a class="btn btn-simulasi-flat" role="button" href="simulasi-tabungan-serbaguna-mikro.php">HITUNG SIMULASI</a> 
+		  <a class="btn btn-simulasi-flat" role="button" href="simulasi-kredit-serbaguna-mikro.php">HITUNG SIMULASI</a> 
 		  </div>
 		</div>
 		</div>
