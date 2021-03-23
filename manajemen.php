@@ -65,56 +65,51 @@
   <div class="tab-content">
     <div id="home" class="container tab-pane active"><br>
     <div class="row">
-                    <div class="col-lg-4">
-                    <div class="card bg-white text-white">
-                    <img src="asset/dewankomisaris_01.png" class="card-img" alt="..."
-                    style="width: 22rem; box-shadow: 0px 20px 40px #00000014; border-radius: 16 px 16px; height:25rem;">
-                        <div class="card-img-overlay" style="margin-top:86%;">
-                            <p class="card-text" style="font-size: 20px; font-weight: 500;"><!-- nama pejabat --></p>
-                            <p class="card-text" style="font-size: 12px;"><!-- jabatam --></p>
-                        </div>
-                        </div>
-                    </div>
+        
+        <div class="col-lg-4">
+        <div class="card bg-white text-white">
+        <img src="asset/dewankomisaris_01.png" class="card-img" alt="..." style="width: 22rem; box-shadow: 0px 20px 40px #00000014; border-radius: 16 px 16px; height:25rem;">
+        <div class="card-img-overlay" style="margin-top:86%;">
+        <p class="card-text" style="font-size: 20px; font-weight: 500;" data-toggle="modal" data-target="#myModal"><!-- nama pejabat --> Abdul Rahman</p>
+        <p class="card-text" style="font-size: 12px;"><!-- jabatam --></p>
+        </div>
+        </div>
+        </div>
 
-                    <div class="col-lg-4">
-                    <div class="card bg-white text-white">
-                    <img src="asset/dewankomisaris_02.png" class="card-img" alt="..."
-                    style="width: 22rem; box-shadow: 0px 20px 40px #00000014; border-radius: 16 px 16px; height:25rem;">
-                        <div class="card-img-overlay" style="margin-top:86%;">
-                            <p class="card-text" style="font-size: 20px; font-weight: 500;"><!-- nama pejabat --></p>
-                            <p class="card-text" style="font-size: 12px;"><!-- jabatam --></p>
-                        </div>
-                        </div>
-                    </div>
+        <div class="col-lg-4">
+        <div class="card bg-white text-white">
+        <img src="asset/dewankomisaris_02.png" class="card-img" alt="..." style="width: 22rem; box-shadow: 0px 20px 40px #00000014; border-radius: 16 px 16px; height:25rem;">
+        <div class="card-img-overlay" style="margin-top:86%;">
+        <p class="card-text" style="font-size: 20px; font-weight: 500;"><!-- nama pejabat --></p>
+        <p class="card-text" style="font-size: 12px;"><!-- jabatam --></p>
+        </div>
+        </div>
+        </div>
 
-                    <div class="col-lg-4">
-                    <div class="card bg-white text-white">
-                            <img src="asset/dewankomisaris_03.png" class="card-img" alt="..."
-                            style="width: 22rem; box-shadow: 0px 20px 40px #00000014; border-radius: 16 px 16px; height:25rem;">
-                        <div class="card-img-overlay" style="margin-top:86%;">
-                            <p class="card-text" style="font-size: 20px; font-weight: 500;"><!-- nama pejabat --></p>
-                            <p class="card-text" style="font-size: 12px;"><!-- jabatam --></p>
-                        </div>
-                    </div>
-                    </div>
+        <div class="col-lg-4">
+        <div class="card bg-white text-white">
+        <img src="asset/dewankomisaris_03.png" class="card-img" alt="..." style="width: 22rem; box-shadow: 0px 20px 40px #00000014; border-radius: 16 px 16px; height:25rem;">
+        <div class="card-img-overlay" style="margin-top:86%;">
+        <p class="card-text" style="font-size: 20px; font-weight: 500;"><!-- nama pejabat --></p>
+        <p class="card-text" style="font-size: 12px;"><!-- jabatam --></p>
+        </div>
+        </div>
+        </div>
 
-                </div>
+    </div>
                  
-                <div class="row mt-4">
+    <div class="row mt-4">
 
-                <div class="col-lg-4">
-                <div class="card bg-white text-white">
-                    <img src="asset/dewankomisaris_04.png" class="card-img" alt="..."
-                    style="width: 22rem; box-shadow: 0px 20px 40px #00000014; border-radius: 16 px 16px; height:25rem;">
-                        <div class="card-img-overlay" style="margin-top:86%;">
-                            <p class="card-text" style="font-size: 20px; font-weight: 500;"><!-- nama pejabat --></p>
-                            <p class="card-text" style="font-size: 12px;"><!-- jabatam --></p>
-                        </div>
-                </div>
-                </div>
-                </div>
-
-
+        <div class="col-lg-4">
+        <div class="card bg-white text-white">
+        <img src="asset/dewankomisaris_04.png" class="card-img" alt="..." style="width: 22rem; box-shadow: 0px 20px 40px #00000014; border-radius: 16 px 16px; height:25rem;">
+        <div class="card-img-overlay" style="margin-top:86%;">
+        <p class="card-text" style="font-size: 20px; font-weight: 500;"><!-- nama pejabat --></p>
+        <p class="card-text" style="font-size: 12px;"><!-- jabatam --></p>
+        </div>
+        </div>
+        </div>
+        </div>
 
     </div>
 
@@ -213,9 +208,9 @@
     <style>
         .modal-dialog{
             width: 729px;
-            height: 1085px;
+            height: 700px;
             background: #FFFFFF 0% 0% no-repeat padding-box;
-            border-radius: 16px;
+            border-radius: 16px 16px 0px 0px;
             opacity: 1;
         }
 
@@ -226,6 +221,9 @@
             opacity: 1;
         }
     </style>
+
+
+
         <div class="modal fade" id="myModal" role="dialog">
         <div class="modal-dialog modal-lg">
 
@@ -259,6 +257,7 @@
             </div>
             
         </div>
+        </div> </div>
             <!-- /.modal-content -->
     
  
