@@ -41,6 +41,10 @@
               <option value="2">Jawa</option>
               <option value="3">Bali</option>
               <option value="4">Kalimantan</option>
+              <option value="5">Sulawesi</option>
+              <option value="6">Nusa Tenggara</option>
+              <option value="7">Maluku</option>
+              <option value="8">Papua</option>
             </select>
           </div>
           <!-- <div class="col-sm text-center"><button class="btn btn-lg btn-search" type="submit">Cari</button></div> -->
@@ -111,7 +115,10 @@
 <div id="myDiv2" style="display:none">Jawa</div>
 <div id="myDiv3" style="display:none">Bali</div>
 <div id="myDiv4" style="display:none">Kalimantan</div>
- 
+<div id="myDiv5" style="display:none">Sulawesi</div>
+<div id="myDiv6" style="display:none">Nusa Tenggara</div>
+<div id="myDiv7" style="display:none">Maluku</div>
+<div id="myDiv8" style="display:none">Papua</div>
 </div>
 
  
