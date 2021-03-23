@@ -83,7 +83,7 @@ td {
     <div class="form-group row  ml-4">
     <label class="col-sm-4 col-form-label" for="waktu">Jangka Waktu</label> 
         <div class="col-sm-5 input-group">
-          <input type="number" class="form-control text-right" id="waktu" oninput="updateWaktu(this); checkInput();" required>
+          <input type="number" class="form-control text-right" id="waktu" oninput="updateWaktu(this); checkInput();"  onkeypress="return isNumberKey(event)"  required>
           <div class="input-group-prepend"><span class="input-group-text" style="border-radius: 0px 12px 12px 0px;"><b>Bulan</b></span></div>
         </div>
         <div class="col-sm-3">
@@ -176,6 +176,15 @@ td {
 
 
 <script>
+
+function isNumberKey(evt){
+    var charCode = (evt.which) ? evt.which : event.keyCode
+    if (charCode > 31 && (charCode < 48 || charCode > 57))
+        return false;
+    return true;
+}    
+
+
  var bSetor = false;
   var bWaktu = false;
   $(document).ready(function(){
