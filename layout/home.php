@@ -16,7 +16,7 @@
     <div class="container">
        <div class="row"> 
 
-        <div class="carousel-caption text-left">
+        <div class="carousel-caption text-left" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1500">
         <h2 style="font-weight: bold; color:#FCD116;">Ambil uang pensiun
         <br/>dari tarik tunai, tidak harus datang
         <br/>ke kantor cabang</h2>
@@ -77,7 +77,7 @@
 <div class="container">
   
  <div class="row">
-    <div class="col-sm">
+    <div class="col-sm" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="4000">
 		<div class="card card-one">
 		  <div class="card-body">
 		  <br/>
@@ -88,9 +88,8 @@
 		  </div>
 		</div>
 		</div>
-
-
-		<div class="col-sm">
+ 
+		<div class="col-sm" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="5000">
 		<div class="card card-two">
 		  <div class="card-body">
 		  <br/>
@@ -106,7 +105,7 @@
  
 
 <br><br><br><br>
-<div class="container text-center">
+<div class="container text-center" data-aos="fade-up" data-aos-delay="300" data-aos-duration="5000">
 <h3 class="text-center">Dapatkan informasi berita, promosi, program terbaru serta<br/> laporan keuangan dari <strong>Bank Mantap</strong></h3>
 
 <p><br/></p>
@@ -124,7 +123,7 @@
 <section style="margin-top:-8rem;">
  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#F2F7FF" fill-opacity="1" d="M0,160L48,138.7C96,117,192,75,288,96C384,117,480,203,576,245.3C672,288,768,288,864,256C960,224,1056,160,1152,128C1248,96,1344,96,1392,96L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
 <!-- MENU CARD SLIDER -->
-<div class="container my-3">
+<div class="container my-3"  data-aos="fade-up" data-aos-delay="200" data-aos-duration="100">
   <!--Carousel Wrapper-->
   <div id="news" class="carousel slide carousel-multi-item" data-ride="carousel" style="margin-top: -20rem;">
     <ol class="carousel-indicators" style="top: 25rem;">
@@ -246,7 +245,7 @@
 
 <!-- ================================================  VIDEO YOUTUBE ====================================================== -->
   <br/><br/>
-  <div class="container">
+  <div class="container"  data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
     <h1 align="center">#BankMantap #BankMandiriTaspen</h1>
     <p align="center"><a>Bank Mantap memahami Anda untuk tetap produktif demi keluarga yang selalu bahagia.</a></p>
     <br/><br/><br/>
@@ -278,7 +277,7 @@
 
 <!-- ================================================ WHY US ================================================================= -->
 <section id="content">
-    <div class="container">
+    <div class="container" data-aos="fade-right" data-aos-delay="300" data-aos-duration="4000">
     <div class="row text-center text-xs-center text-sm-left text-md-left">
     <div class="col-xs-12 col-sm-4 col-md-4">
     <h1>Mengapa memilih<br/>Bank Mandiri Taspen</h1>

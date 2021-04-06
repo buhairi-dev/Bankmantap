@@ -104,7 +104,7 @@
         <div class="card bg-white text-white">
         <img src="asset/dewankomisaris_04.png" class="card-img" alt="..." style="width: 22rem; box-shadow: 0px 20px 40px #00000014; border-radius: 16 px 16px; height:25rem;">
         <div class="card-img-overlay" style="margin-top:86%;">
-        <p class="card-text" style="font-size: 20px; font-weight: 500;"><!-- nama pejabat -->Adie Soesatyantoro</p>
+        <p class="card-text" style="font-size: 20px; font-weight: 500;"><!-- nama pejabat --></p>
         <p class="card-text" style="font-size: 12px;"><!-- jabatam --></p>
         </div>
         </div>
@@ -208,6 +208,7 @@
         }
     </style>
 
+<!-- MODAL DISPLAY --->
         <div class="modal fade" id="myModal" role="dialog">
         <div class="modal-dialog modal-lg">
 
@@ -242,7 +243,7 @@
         </div>
         </div>
         </div>
-
+<!-- MODAL END --->
     
  
 <?php include 'layout/footer.php';?>
