@@ -234,10 +234,10 @@
                 
             </div>
             <div class="col-sm-3-right" style="width:70%;">
-            <p>52 Tahun</p>
-            <p>Indonesia</p>
-            <p>Jakarta</p>
-            <p>Sarjana Keuangan dan Akuntansi (jurusan ganda) dari University of Virginia, Charlottesville, Amerika Serikat (1995)</p>
+            <p>: 52 Tahun</p>
+            <p>: Indonesia</p>
+            <p>: Jakarta</p>
+            <p>: Sarjana Keuangan dan Akuntansi (jurusan ganda) dari University of Virginia, Charlottesville, Amerika Serikat (1995)</p>
             </div>
             
         </div>

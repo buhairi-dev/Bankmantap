@@ -15,7 +15,7 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-6">
-        <h4 style="color:#0F2B5B;" class="mt-5"><strong>Budaya Kerja Bank Mandiri Taspen</strong></h4>
+        <h4 style="color:#0F2B5B;" class="mt-5"><strong>Budaya Kerja</strong></h4>
         <h4 style="color:#0F2B5B;" class="mt-3">Nilai Budaya Perusahaan TOP</h4>
         
         <table class="mt-3" style="font-size:13px;">

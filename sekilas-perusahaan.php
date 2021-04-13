@@ -80,7 +80,7 @@
         Maret 2019 No. AHU-AH.01.03-138220 dan telah di daftarkan pada daftar Perseroan Nomor AHU-0039461.AH.01.11 Tahun 2019 tanggal 11 Maret 2019. Perubahan Anggaran Dasar tersebut juga telah disetujui
         berdasarkan Keputusan Menteri Hukum dan Hak Asasi Manusia Republik Indonesia No.AHU-0012925.AH.01.02 tahun 2019 tentang Persetujuan Perubahan Anggaran Dasar Perseroan Terbatas PT Bank Mandiri Taspen 
         serta telah mendapat persetujuan dari Otoritas Jasa Keuangan Nomor: S-5/PB.1/2019 tanggal 28 Januari 2019 tentang Rencana Pemisahan dan Pemindahan Alamat Kantor Pusat (KP), Bank memindahkan Kantor
-        Pusatnya yang semula berkedudukan dan berkantor pusat di Denpasar-Balik menjadi berkedudukan dan berkantor pusat di Jakarta Pusat. Perpindaha kantor pusat tersebut kemudian dilaksanakan secara efektif pada tanggal 11 Maret 2019.
+        Pusatnya yang semula berkedudukan dan berkantor pusat di Denpasar-Bali menjadi berkedudukan dan berkantor pusat di Jakarta Pusat. Perpindaha kantor pusat tersebut kemudian dilaksanakan secara efektif pada tanggal 11 Maret 2019.
         </small></p>
 
         <p><small>
