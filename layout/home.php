@@ -17,7 +17,7 @@
        <div class="row"> 
 
         <div class="carousel-caption text-left" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1500">
-        <h2 style="font-weight: bold; color:#FCD116; text-shadow: 2px 2px #0d0354; ">Ambil uang pensiun
+        <h2 style="font-weight: bold; color:#FCD116; text-shadow: 2px 2px #0d0354;">Ambil uang pensiun
         <br/>dari tarik tunai, tidak harus datang
         <br/>ke kantor cabang</h2>
         <p class="text-light">Dengan kartu ATM Bank Mantap, nasabah pensiunan ASN<br/>dan TNI/POLRI dapat mengambil uang pensiun dan tarik<br/>
