@@ -70,8 +70,8 @@
         <div class="card bg-white text-white">
         <img src="asset/dewankomisaris_01.png" class="card-img" alt="..." style="width: 22rem; box-shadow: 0px 20px 40px #00000014; border-radius: 16 px 16px; height:25rem;">
         <div class="card-img-overlay" style="margin-top:86%;">
-        <p class="card-text" style="font-size: 20px; font-weight: 500;"><!-- nama pejabat --> </p>
-        <p class="card-text" style="font-size: 12px;"><!-- jabatam --></p>
+        <p class="card-text" style="font-size: 20px; font-weight: 500; color:#FCD116;"><strong>Nama Pejabat </strong></p>
+        <p class="card-text" style="font-size: 12px; color:#FCD116;"><strong>JABATAN</strong></p>
         </div>
         </div>
         </div>

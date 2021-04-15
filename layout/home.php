@@ -125,7 +125,6 @@
 <!-- MENU CARD SLIDER -->
 <div class="container my-3"  data-aos="fade-up" data-aos-delay="200" data-aos-duration="100">
 
-  
   <!--Carousel Wrapper-->
   <div id="news" class="carousel slide carousel-multi-item" data-ride="carousel" style="margin-top: -20rem;">
     <ol class="carousel-indicators" style="top: 25rem;">
@@ -135,13 +134,20 @@
     </ol>
   <!--Slides-->
   
+
+  <!-- Indicator Slider -->
+  <a class="carousel-control-prev" href="#news" role="button" data-slide="prev"><img src="asset/left.svg"  style="margin-left: -18rem;"></a>
+  <a class="carousel-control-next" href="#news" role="button" data-slide="next"><img src="asset/right.svg" style="margin-right: -18rem;"></a>
+  <!-- End Indicator Slider -->
+
+
   <div class="carousel-inner" role="listbox">
     <!--First slide-->
     <div class="carousel-item active">
         
       <div class="col-md-3" style="float:left;">
-       <div class="card mb-2" style="height: 23rem; box-shadow: 0px 20px 40px #75B2DD1A;border-radius: 12px 12px 0px 0px; opacity: 1;">
-          <img class="card-img-top" src="asset/minislide1.png" alt="Card image cap"  style="height: 12rem;">
+       <div class="card mb-2" style="height: 23rem; box-shadow: 0px 20px 40px #75B2DD1A; border-radius: 15px 15px 15px 15px; opacity: 1;">
+          <img class="card-img-top" src="asset/minislide1.png" alt="Card image cap"  style="height: 12rem; border-radius: 15px 15px 0px 0px;">
           <div class="card-body">
           <p class="card-text text-left"><small class="text-muted">Last Update : 7 Des 2020</small></p>
           <p class="card-text text-left" style="color: #0F2B5B; cursor:pointer;" onclick="location.href='berita-mantap-detail.php';">Bank Mantap Serahkan Bantuan Alat Pelindung Diri Kepada RSPI Sulianti Saroso</p>
@@ -150,8 +156,8 @@
       </div>
   
       <div class="col-md-3" style="float:left">
-        <div class="card mb-2" style="height: 23rem; box-shadow: 0px 20px 40px #75B2DD1A;border-radius: 12px 12px 0px 0px; opacity: 1;">
-          <img class="card-img-top" src="asset/minislide2.png" alt="Card image cap"  style="height: 12rem;">
+        <div class="card mb-2" style="height: 23rem; box-shadow: 0px 20px 40px #75B2DD1A; border-radius: 15px 15px 15px 15px; opacity: 1;">
+          <img class="card-img-top" src="asset/minislide2.png" alt="Card image cap"  style="height: 12rem; border-radius: 15px 15px 0px 0px;">
           <div class="card-body">
           <p class="card-text text-left"><small class="text-muted">Last Update : 16 Nov 2020</small></p>
           <p class="card-text text-left" style="color:#0F2B5B; cursor:pointer;" onclick="location.href='berita-mantap-detail.php';">Hadiah langsung tabungan siMantap, tentukan hadiahmu!</p>   
@@ -160,8 +166,8 @@
       </div>
       
       <div class="col-md-3" style="float:left">
-        <div class="card mb-2" style="height: 23rem; box-shadow: 0px 20px 40px #75B2DD1A;border-radius: 12px 12px 0px 0px; opacity: 1;">
-          <img class="card-img-top" src="asset/minislide3.png" alt="Card image cap" style="height: 12rem;">
+        <div class="card mb-2" style="height: 23rem; box-shadow: 0px 20px 40px #75B2DD1A; border-radius: 15px 15px 15px 15px; opacity: 1;">
+          <img class="card-img-top" src="asset/minislide3.png" alt="Card image cap" style="height: 12rem; border-radius: 15px 15px 0px 0px;">
           <div class="card-body">
           <p class="card-text text-left"><small class="text-muted">Last Update : 10 Nov 2020</small></p>
           <p class="card-text text-left" style="color: #0F2B5B; cursor:pointer;" onclick="location.href='berita-mantap-detail.php';">Pegawai Bank Mandiri Taspen Sisihkan Gaji Untuk Bantuan Akibat Dampak Virus Covid-19</p>
@@ -170,8 +176,8 @@
       </div>
       
        <div class="col-md-3" style="float:left">
-       <div class="card mb-2" style="height: 23rem; box-shadow: 0px 20px 40px #75B2DD1A;border-radius: 12px 12px 0px 0px; opacity: 1;">
-          <img class="card-img-top" src="asset/minislide4.png" alt="Card image cap" style="height: 12rem;">
+       <div class="card mb-2" style="height: 23rem; box-shadow: 0px 20px 40px #75B2DD1A; border-radius: 15px 15px 15px 15px; opacity: 1;">
+          <img class="card-img-top" src="asset/minislide4.png" alt="Card image cap" style="height: 12rem; border-radius: 15px 15px 0px 0px;">
           <div class="card-body">
           <p class="card-text text-left"><small class="text-muted">Last Update : 25 Okt 2020</small></p>
           <p class="card-text text-left" style="color: #0F2B5B; cursor:pointer;" onclick="location.href='berita-mantap-detail.php';">Badan Kepegawaian Negara Taspen dan Bank Mantap Perkuat Sinergi</p>
@@ -184,8 +190,8 @@
     <div class="carousel-item">
         
       <div class="col-md-3" style="float:left">
-       <div class="card mb-2" style="height: 23rem; box-shadow: 0px 20px 40px #75B2DD1A;border-radius: 12px 12px 0px 0px; opacity: 1;">
-          <img class="card-img-top" src="asset/minislide1.png" alt="Card image cap" style="height: 12rem;">
+       <div class="card mb-2" style="height: 23rem; box-shadow: 0px 20px 40px #75B2DD1A; border-radius: 15px 15px 15px 15px; opacity: 1;">
+          <img class="card-img-top" src="asset/minislide1.png" alt="Card image cap" style="height: 12rem; border-radius: 15px 15px 0px 0px;">
           <div class="card-body">
           <p class="card-text text-left"><small class="text-muted">Last Update : 7 Des 2020</small></p>
           <p class="card-text text-left" style="color: #0F2B5B; cursor:pointer;" onclick="location.href='berita-mantap-detail.php';">Bank Mantap Serahkan Bantuan Alat Pelindung Diri Kepada RSPI Sulianti Saroso</p>
@@ -194,8 +200,8 @@
       </div>
   
       <div class="col-md-3" style="float:left">
-        <div class="card mb-2" style="height: 23rem; box-shadow: 0px 20px 40px #75B2DD1A;border-radius: 12px 12px 0px 0px; opacity: 1;">
-          <img class="card-img-top" src="asset/minislide2.png" alt="Card image cap" style="height: 12rem;">
+        <div class="card mb-2" style="height: 23rem; box-shadow: 0px 20px 40px #75B2DD1A; border-radius: 15px 15px 15px 15px; opacity: 1;">
+          <img class="card-img-top" src="asset/minislide2.png" alt="Card image cap" style="height: 12rem; border-radius: 15px 15px 0px 0px;">
           <div class="card-body">
           <p class="card-text text-left"><small class="text-muted">Last Update : 16 Nov 2020</small></p>
           <p class="card-text text-left" style="color: #0F2B5B; cursor:pointer;" onclick="location.href='berita-mantap-detail.php';">Hadiah langsung tabungan siMantap, tentukan hadiahmu!</p>   
@@ -204,8 +210,8 @@
       </div>
   
       <div class="col-md-3" style="float:left">
-        <div class="card mb-2" style="height: 23rem; box-shadow: 0px 20px 40px #75B2DD1A;border-radius: 12px 12px 0px 0px; opacity: 1;">
-          <img class="card-img-top" src="asset/minislide3.png" alt="Card image cap" style="height: 12rem;">
+        <div class="card mb-2" style="height: 23rem; box-shadow: 0px 20px 40px #75B2DD1A; border-radius: 15px 15px 15px 15px; opacity: 1;">
+          <img class="card-img-top" src="asset/minislide3.png" alt="Card image cap" style="height: 12rem; border-radius: 15px 15px 0px 0px;">
           <div class="card-body">
           <p class="card-text text-left"><small class="text-muted">Last Update : 10 Nov 2020</small></p>
           <p class="card-text text-left" style="color: #0F2B5B; cursor:pointer;" onclick="location.href='berita-mantap-detail.php';">Pegawai Bank Mandiri Taspen Sisihkan Gaji Untuk Bantuan Akibat Dampak Virus Covid-19</p>
@@ -214,8 +220,8 @@
       </div>
       
        <div class="col-md-3" style="float:left">
-       <div class="card mb-2" style="height: 23rem; box-shadow: 0px 20px 40px #75B2DD1A;border-radius: 12px 12px 0px 0px; opacity: 1;">
-          <img class="card-img-top" src="asset/minislide4.png" alt="Card image cap" style="height: 12rem;">
+       <div class="card mb-2" style="height: 23rem; box-shadow: 0px 20px 40px #75B2DD1A; border-radius: 15px 15px 15px 15px; opacity: 1;">
+          <img class="card-img-top" src="asset/minislide4.png" alt="Card image cap" style="height: 12rem; border-radius: 15px 15px 0px 0px;">
           <div class="card-body">
           <p class="card-text text-left"><small class="text-muted">Last Update : 25 Okt 2020</small></p>
           <p class="card-text text-left" style="color: #0F2B5B; cursor:pointer;" onclick="location.href='berita-mantap-detail.php';">Badan Kepegawaian Negara Taspen dan Bank Mantap Perkuat Sinergi</p>
@@ -226,14 +232,15 @@
     </div>
     <!--Second slide--> 
  
+
+
   </div>
   <!--/.Slides-->
 
-  <!-- Indicator Slider -->
-  <a class="carousel-control-prev" href="#news" role="button" data-slide="prev"><img src="asset/left.svg" style="margin-left: -13rem;"></a>
-  <a class="carousel-control-next" href="#news" role="button" data-slide="next"><img src="asset/right.svg" style="margin-right: -13rem;"></a>
-   <!-- End Indicator Slider -->
-    
+   
+
+   
+
   </div>
   
    
